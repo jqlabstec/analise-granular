@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Supervisores</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f3f4f6;
+    }
+
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+      padding: 1.5rem;
+    }
+
+    th,
+    td {
+      text-align: center;
+      padding: 0.75rem 0.5rem;
+    }
+
+    .table-responsive {
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body class="p-6">
+
+  <!-- Container principal para limitar a largura em telas grandes -->
+  <div class="max-w-[1600px] mx-auto">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4 rounded-xl shadow-md mb-6">
+      <div class="flex justify-between items-center flex-wrap gap-2">
+        <h1 class="text-2xl font-bold">Dashboard de Produtividade</h1>
+        <span class="text-sm">Atualizado em: <span id="last-updated"></span></span>
+      </div>
+    </header>
+
+    <!-- Filtros -->
+    <section class="card mb-6">
+      <h2 class="text-xl font-semibold mb-4 text-gray-800">Filtros</h2>
+      <!-- Alterado para usar gap e quebrar em telas menores -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div>
+          <label for="date-filter" class="font-medium text-gray-700 block mb-1">Data</label>
+          <input type="date" id="date-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+        <div>
+          <label for="supervisor-filter" class="font-medium text-gray-700 block mb-1">Supervisor</label>
+          <select id="supervisor-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
+        </div>
+        <div>
+          <label for="regional-filter" class="font-medium text-gray-700 block mb-1">Regional</label>
+          <select id="regional-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
+        </div>
+        <div>
+          <label for="consultant-filter" class="font-medium text-gray-700 block mb-1">Consultor</label>
+          <input type="text" id="consultant-filter" placeholder="Nome do Consultor" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards dos Supervisores - Alterado para grid responsivo -->
+    <main id="cards-container" class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
+    </main>
+  </div>
+
+  <script>
+    const cardsContainer = document.getElementById("cards-container");
+    const supervisorFilter = document.getElementById("supervisor-filter");
+    const regionalFilter = document.getElementById("regional-filter");
+    const dateFilter = document.getElementById("date-filter");
+    const consultantFilter = document.getElementById("consultant-filter");
+    const lastUpdated = document.getElementById("last-updated");
+
+    let allConsultantData = []; // Armazena todos os dados brutos
+    let processedData = []; // Armazena dados com a data convertida
+    let uniqueDates = [];
+    let uniqueSupervisors = [];
+    let uniqueRegionals = [];
+
+    function excelSerialDateToYYYYMMDD(serial) {
+      if (typeof serial !== 'number' || serial <= 0) return null; // Garante que seja um número positivo
+      const msSinceEpoch = (serial - 25569) * 24 * 60 * 60 * 1000;
+      const date = new Date(msSinceEpoch);
+
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+
+      if (year < 2000 || year > 2050) {
+        console.warn(`Data convertida (${year}-${month}-${day}) parece irrazoável para serial ${serial}. Verifique a função de conversão.`);
+        return null;
+      }
+      return `${year}-${month}-${day}`;
+    }
+
+    // Função para agrupar dados por supervisor e acumular valores por consultor
+    function groupDataBySupervisor(data) {
+      const grouped = {};
+      data.forEach(item => {
+        const supervisorName = item.SUPERVISOR;
+        const consultantName = item.CONSULTOR;
+
+        if (!grouped[supervisorName]) {
+          grouped[supervisorName] = {
+            supervisor: supervisorName,
+            regional: item.REGIONAL,
+            consultores: {} // Usar um objeto para facilitar a agregação por nome do consultor
+          };
+        }
+
+        const supData = grouped[supervisorName];
+        if (!supData.consultores[consultantName]) {
+          // Se o consultor ainda não existe, cria a entrada com os valores iniciais
+          supData.consultores[consultantName] = {
+            CONSULTOR: consultantName,
+            VISITAS: 0,
+            PROPOSTAS: 0,
+            "PROP. FINLZD": 0,
+            MENSALIDADES: 0,
+            META: 0
+          };
+        }
+
+        // Acumula os valores para o consultor
+        const consData = supData.consultores[consultantName];
+        consData.VISITAS += Number(item.VISITAS || 0);
+        consData.PROPOSTAS += Number(item.PROPOSTAS || 0);
+        consData["PROP. FINLZD"] += Number(item["PROP. FINLZD"] || 0);
+        consData.MENSALIDADES += Number(item.MENSALIDADES || 0);
+        consData.META += Number(item.META || 0);
+      });
+
+      // Converte a estrutura aninhada para um array de supervisores com seus consultores agregados
+      const supervisorsArray = Object.values(grouped).map(sup => {
+        // Converte a lista de consultores para um array para fácil iteração
+        sup.consultores = Object.values(sup.consultores);
+        return sup;
+      });
+
+      return supervisorsArray;
+    }
+
+    // Função para criar o card de um supervisor
+    function createSupervisorCard(supervisor) {
+      const totalVisitas = supervisor.consultores.reduce((s, c) => s + c.VISITAS, 0);
+      const totalPropostas = supervisor.consultores.reduce((s, c) => s + c.PROPOSTAS, 0);
+      const totalFinalizadas = supervisor.consultores.reduce((s, c) => s + c["PROP. FINLZD"], 0);
+      const totalMensalidades = supervisor.consultores.reduce((s, c) => s + c.MENSALIDADES, 0);
+      const totalMetaMensal = supervisor.consultores.reduce((s, c) => s + c.META, 0);
+
+      const zerados = supervisor.consultores.filter(c => c.MENSALIDADES === 0).length;
+      const fte = supervisor.consultores.length;
+
+      // Cálculos adicionais
+      const icm = totalPropostas > 0 ? ((totalMensalidades / totalMetaMensal) * 100).toFixed(1) : "0.0";
+      const mensalidadesPorFTE = fte > 0 ? (totalMensalidades / fte).toFixed(2) : "0.00";
+      const percentZerados = fte > 0 ? ((zerados / fte) * 100).toFixed(1) : "0.0";
+
+      const card = document.createElement("div");
+      // Aumenta a largura do card para ocupar o espaço total do grid
+      card.className = "card w-full max-w-[800px]";
+
+      card.innerHTML = `
+        <div class="flex items-center gap-4 mb-4">
+          <div class="w-16 h-16 min-w-[4rem] rounded-full bg-blue-500 flex items-center justify-center text-white text-2xl font-bold">
+            ${supervisor.supervisor ? supervisor.supervisor.charAt(0).toUpperCase() : 'S'}
+          </div>
+          <div class="flex-grow">
+            <h3 class="text-xl font-semibold text-gray-800">${supervisor.supervisor}</h3>
+            <p class="text-gray-500 text-sm">${supervisor.regional}</p>
+          </div>
+        </div>
+        
+        <!-- Reorganiza o layout para que os valores não quebrem a linha -->
+        <div class="grid grid-cols-2 md:grid-cols-5 text-center text-sm font-medium text-gray-600 border-b pb-2 mb-3 gap-x-2 gap-y-2">
+          <div>META MENS</div>
+          <div>REAL ATUAL</div>
+          <div>%ICM</div>
+          <div>MENS./FTE</div>
+          <div>%ZERADOS</div>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-5 text-center text-base mb-4 gap-x-2 gap-y-2">
+          <div class="font-bold text-green-700">${totalMetaMensal.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</div>
+          <div class="font-bold text-blue-700">${totalMensalidades.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</div>
+          <div>${icm}%</div>
+          <div>${Number(mensalidadesPorFTE).toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</div>
+          <div>${percentZerados}%</div>
+        </div>
+        
+        <!-- Tabela responsiva com rolagem horizontal -->
+        <div class="table-responsive flex-grow">
+          <table class="w-full text-sm border border-gray-200 rounded-lg">
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="py-2">Consultor</th>
+                <th class="py-2">Visitas</th>
+                <th class="py-2">Propostas</th>
+                <th class="py-2">Prop. Finlzd</th>
+                <th class="py-2">Mensalidades</th>
+                <th class="py-2">TKT Méd</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${supervisor.consultores.map(c => {
+                // Calcula TKT Médio com base nos valores acumulados do consultor
+                const tktMedio = c.PROPOSTAS > 0 ? c.MENSALIDADES / c.PROPOSTAS : 0;
+                return `
+                  <tr class="border-t border-gray-100 hover:bg-gray-50">
+                    <td class="font-medium text-left px-2 py-2 whitespace-nowrap">${c.CONSULTOR}</td>
+                    <td class="whitespace-nowrap">${c.VISITAS}</td>
+                    <td class="whitespace-nowrap">${c.PROPOSTAS}</td>
+                    <td class="whitespace-nowrap">${c["PROP. FINLZD"]}</td>
+                    <td class="whitespace-nowrap">${Number(c.MENSALIDADES).toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</td>
+                    <td class="whitespace-nowrap">${Number(tktMedio).toLocaleString("pt-BR", {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
+                  </tr>
+                `;
+              }).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
+      return card;
+    }
+
+    // Função para popular os filtros
+    function populateFilters() {
+      // Coleta valores únicos do PROCESSED_DATA, filtrando nulos e ordena
+      uniqueDates = [...new Set(processedData
+          .map(d => d.DATA_FORMATTED)
+          .filter(Boolean))] // Filtra valores null/undefined
+        .sort((a, b) => new Date(b) - new Date(a)); // Datas mais recentes primeiro
+
+      uniqueSupervisors = [...new Set(processedData.map(d => d.SUPERVISOR))].sort();
+      uniqueRegionals = [...new Set(processedData.map(d => d.REGIONAL))].sort();
+
+      // Popular Regional
+      regionalFilter.innerHTML = `<option value="Todos">Todos</option>` + uniqueRegionals.map(r => `<option value="${r}">${r}</option>`).join("");
+      
+      // Popular Supervisor inicialmente com todos
+      updateSupervisorFilterOptions("Todos");
+
+      // Definir a data mais recente no input de data por padrão
+      if (uniqueDates.length > 0) {
+        dateFilter.value = uniqueDates[0]; // uniqueDates[0] já é a string YYYY-MM-DD
+      } else {
+        dateFilter.value = ""; // Limpa o campo se não houver datas válidas
+      }
+    }
+
+    // Nova função para atualizar o filtro de supervisor
+    function updateSupervisorFilterOptions(selectedRegional) {
+      let supervisorsToDisplay = [];
+      if (selectedRegional === "Todos") {
+        supervisorsToDisplay = uniqueSupervisors;
+      } else {
+        // Filtra os supervisores da regional selecionada
+        supervisorsToDisplay = [...new Set(processedData
+          .filter(d => d.REGIONAL === selectedRegional)
+          .map(d => d.SUPERVISOR)
+        )].sort();
+      }
+
+      const currentSupervisorValue = supervisorFilter.value;
+      supervisorFilter.innerHTML = `<option value="Todos">Todos</option>` + supervisorsToDisplay.map(s => `<option value="${s}">${s}</option>`).join("");
+      
+      // Tenta manter o supervisor selecionado se ele ainda existir na lista
+      if (supervisorsToDisplay.includes(currentSupervisorValue) || currentSupervisorValue === 'Todos') {
+        supervisorFilter.value = currentSupervisorValue;
+      }
+    }
+
+
+    // Função para aplicar os filtros
+    function applyFilters() {
+      let filteredData = [...processedData]; // Usa os dados processados
+
+      // Filtro de Data: agora filtra os dados acumulados até a data selecionada
+      if (dateFilter.value) {
+        const selectedDate = dateFilter.value;
+        filteredData = filteredData.filter(d => d.DATA_FORMATTED <= selectedDate);
+      }
+
+      // Filtro de Supervisor
+      if (supervisorFilter.value !== "Todos") {
+        filteredData = filteredData.filter(d => d.SUPERVISOR === supervisorFilter.value);
+      }
+
+      // Filtro de Regional
+      if (regionalFilter.value !== "Todos") {
+        filteredData = filteredData.filter(d => d.REGIONAL === regionalFilter.value);
+      }
+
+      // Filtro de Consultor (busca por parte do nome, case-insensitive)
+      const searchTerm = consultantFilter.value.trim().toLowerCase();
+      if (searchTerm) {
+        filteredData = filteredData.filter(d => d.CONSULTOR.toLowerCase().includes(searchTerm));
+      }
+
+      const groupedBySupervisor = groupDataBySupervisor(filteredData);
+      renderCards(groupedBySupervisor);
+    }
+
+    // Função para renderizar os cards
+    function renderCards(data) {
+      cardsContainer.innerHTML = "";
+      if (data.length === 0) {
+        cardsContainer.innerHTML = "<p class='text-center text-gray-500 text-lg col-span-full'>Nenhum dado encontrado com os filtros aplicados.</p>";
+      } else {
+        data.forEach(sup => cardsContainer.appendChild(createSupervisorCard(sup)));
+      }
+    }
+
+    // Inicialização do Dashboard
+    async function init() {
+      try {
+        const response = await fetch("data.json");
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        allConsultantData = await response.json();
+
+        // Processar os dados para converter a data serial
+        processedData = allConsultantData.map(item => {
+          let formatted;
+
+          if (typeof item.DATA === "string" && item.DATA.includes("/")) {
+            // Converter de DD/MM/YYYY → YYYY-MM-DD
+            const [dia, mes, ano] = item.DATA.split("/");
+            formatted = `${ano}-${mes.padStart(2, "0")}-${dia.padStart(2, "0")}`;
+          } else if (typeof item.DATA === "number") {
+            // Caso ainda venha como serial do Excel
+            formatted = excelSerialDateToYYYYMMDD(item.DATA);
+          } else {
+            // Se já vier como YYYY-MM-DD
+            formatted = item.DATA;
+          }
+
+          return {
+            ...item,
+            DATA_FORMATTED: formatted
+          };
+        });
+
+        populateFilters();
+        applyFilters(); // Aplica os filtros iniciais (incluindo a data mais recente)
+        lastUpdated.textContent = new Date().toLocaleDateString("pt-BR");
+      } catch (err) {
+        console.error("Erro ao carregar ou processar os dados:", err);
+        cardsContainer.innerHTML = "<p class='text-center text-red-500 text-lg col-span-full'>Ocorreu um erro ao carregar os dados. Tente novamente mais tarde.</p>";
+      }
+    }
+
+    // Adiciona event listeners para os filtros
+    dateFilter.addEventListener("change", applyFilters);
+    supervisorFilter.addEventListener("change", applyFilters);
+    consultantFilter.addEventListener("input", applyFilters);
+    // Adiciona listener para o filtro de regional, que também atualiza o filtro de supervisor
+    regionalFilter.addEventListener("change", (e) => {
+      updateSupervisorFilterOptions(e.target.value);
+      applyFilters();
+    });
+
+
+    // Inicia o dashboard quando o DOM estiver completamente carregado
+    document.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+
+</html>
