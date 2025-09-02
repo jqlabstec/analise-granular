@@ -4,18 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard Supervisores</title>
+  <title>Análise Granular</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      background: #f3f4f6;
+      /* Background da paleta de cores */
+      background: #111827;
     }
 
     .card {
       background: white;
       border-radius: 1rem;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
       padding: 1.5rem;
     }
 
@@ -28,6 +29,10 @@
     .table-responsive {
       overflow-x: auto;
     }
+
+    img{
+      border-radius: 5px;
+    }
   </style>
 </head>
 
@@ -35,11 +40,16 @@
 
   <!-- Container principal para limitar a largura em telas grandes -->
   <div class="max-w-[1600px] mx-auto">
-    <!-- Header -->
-    <header class="bg-blue-600 text-white p-4 rounded-xl shadow-md mb-6">
-      <div class="flex justify-between items-center flex-wrap gap-2">
-        <h1 class="text-2xl font-bold">Dashboard de Produtividade</h1>
-        <span class="text-sm">Atualizado em: <span id="last-updated"></span></span>
+    <!-- Header com gradiente da paleta de cores e espaço para o logo -->
+    <header class="bg-blue-600 p-4 rounded-xl shadow-md mb-6" style="background: linear-gradient(to right, #249788, #5a4ac7);">
+      <div class="flex items-center justify-between flex-wrap gap-4">
+        <!-- Espaço para o Logo -->
+        <div class="flex items-center space-x-4">
+            <!-- A tag <img> foi adicionada aqui para o seu logo -->
+            <img src="/almavivaexperience_cover.jpeg" alt="Logo da empresa" class="h-10">
+            <h1 class="text-2xl font-bold text-white">Análise Granular</h1>
+        </div>
+        <span class="text-sm text-white">Atualizado em: <span id="last-updated"></span></span>
       </div>
     </header>
 
@@ -157,7 +167,7 @@
       const totalMensalidades = supervisor.consultores.reduce((s, c) => s + c.MENSALIDADES, 0);
       const totalMetaMensal = supervisor.consultores.reduce((s, c) => s + c.META, 0);
 
-      const zerados = supervisor.consultores.filter(c => c.MENSALIDADES === 0).length;
+      const zerados = supervisor.consultores.filter(c => c.VISITAS === 0).length;
       const fte = supervisor.consultores.length;
 
       // Cálculos adicionais
@@ -171,7 +181,8 @@
 
       card.innerHTML = `
         <div class="flex items-center gap-4 mb-4">
-          <div class="w-16 h-16 min-w-[4rem] rounded-full bg-blue-500 flex items-center justify-center text-white text-2xl font-bold">
+          <!-- Cor do círculo baseada na paleta -->
+          <div class="w-16 h-16 min-w-[4rem] rounded-full flex items-center justify-center text-white text-2xl font-bold" style="background: #5a4ac7;">
             ${supervisor.supervisor ? supervisor.supervisor.charAt(0).toUpperCase() : 'S'}
           </div>
           <div class="flex-grow">
