@@ -211,7 +211,7 @@
                         </thead>
                         <tbody>
                             ${supervisor.consultores.map(c => {
-                                const tktMedio = c.PROPOSTAS > 0 ? c.MENSALIDADES / c.PROPOSTAS : 0;
+                                const tktMedio = c["PROP. FINLZD"]> 0 ? c.MENSALIDADES / c["PROP. FINLZD"] : 0;
                                 return `
                                     <tr class="border-t border-gray-100 hover:bg-gray-50">
                                         <td class="font-medium text-left px-2 py-2">${c.CONSULTOR}</td>
