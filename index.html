@@ -40,7 +40,8 @@
     <!-- Container principal para limitar a largura em telas grandes -->
     <div class="max-w-[1600px] mx-auto">
         <!-- Header com gradiente da paleta de cores e espaço para o logo -->
-        <header class="bg-blue-600 p-4 rounded-xl shadow-md mb-6" style="background: linear-gradient(to right, #249788, #5a4ac7);">
+        <header class="bg-blue-600 p-4 rounded-xl shadow-md mb-6"
+            style="background: linear-gradient(to right, #249788, #5a4ac7);">
             <div class="flex items-center justify-between flex-wrap gap-4">
                 <!-- Espaço para o Logo e Título -->
                 <div class="flex items-center space-x-2 sm:space-x-4">
@@ -57,21 +58,30 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div class="flex flex-col">
                     <label for="date-filter" class="font-medium text-gray-700 block mb-1">Data</label>
-                    <input type="date" id="date-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+                    <input type="date" id="date-filter"
+                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
                 </div>
                 <div class="flex flex-col">
                     <label for="supervisor-filter" class="font-medium text-gray-700 block mb-1">Supervisor</label>
-                    <select id="supervisor-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
+                    <select id="supervisor-filter"
+                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
                 </div>
                 <div class="flex flex-col">
                     <label for="regional-filter" class="font-medium text-gray-700 block mb-1">Regional</label>
-                    <select id="regional-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
+                    <select id="regional-filter"
+                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
                 </div>
                 <div class="flex flex-col">
                     <label for="consultant-filter" class="font-medium text-gray-700 block mb-1">Consultor</label>
-                    <input type="text" id="consultant-filter" placeholder="Nome do Consultor" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+                    <input type="text" id="consultant-filter" placeholder="Nome do Consultor"
+                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
                 </div>
             </div>
+        </section>
+
+        <!-- Cards Gerais de Resumo -->
+        <section id="general-summary-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+            <!-- Os cards gerais serão renderizados aqui -->
         </section>
 
         <!-- Cards dos Supervisores - Alterado para grid responsivo -->
@@ -81,6 +91,7 @@
 
     <script>
         const cardsContainer = document.getElementById("cards-container");
+        const generalSummaryCardsContainer = document.getElementById("general-summary-cards"); // Novo contêiner
         const supervisorFilter = document.getElementById("supervisor-filter");
         const regionalFilter = document.getElementById("regional-filter");
         const dateFilter = document.getElementById("date-filter");
@@ -152,6 +163,45 @@
             return supervisorsArray;
         }
 
+        // NOVA FUNÇÃO: Renderizar os cards de resumo geral
+        function renderGeneralSummaryCards(data) {
+            generalSummaryCardsContainer.innerHTML = "";
+
+            if (data.length === 0) {
+                generalSummaryCardsContainer.innerHTML = "<p class='text-center text-gray-500 text-lg col-span-full'>Nenhum dado geral encontrado.</p>";
+                return;
+            }
+
+            const totalMetaGeral = data.reduce((sum, item) => sum + Number(item.META || 0), 0);
+            const totalVisitasGeral = data.reduce((sum, item) => sum + Number(item.VISITAS || 0), 0);
+            const totalPropostasGeral = data.reduce((sum, item) => sum + Number(item.PROPOSTAS || 0), 0);
+            const totalFinalizadasGeral = data.reduce((sum, item) => sum + Number(item["PROP. FINLZD"] || 0), 0);
+            const totalMensalidadesGeral = data.reduce((sum, item) => sum + Number(item.MENSALIDADES || 0), 0);
+
+            const icmGeral = totalMensalidadesGeral > 0 && totalMetaGeral > 0 ? ((totalMensalidadesGeral / totalMetaGeral) * 100).toFixed(1) : "0.0";
+
+            // Dados para os cards gerais
+            const summaryMetrics = [
+                { title: "Meta Total", value: totalMetaGeral.toLocaleString("pt-BR", { style: "currency", currency: "BRL" }), color: "text-green-700" },
+                { title: "Total de Visitas", value: totalVisitasGeral.toLocaleString("pt-BR"), color: "text-blue-700" },
+                { title: "Total de Propostas", value: totalPropostasGeral.toLocaleString("pt-BR"), color: "text-purple-700" },
+                { title: "Total Prop. Finlzd", value: totalFinalizadasGeral.toLocaleString("pt-BR"), color: "text-indigo-700" },
+                { title: "Total de Mensalidades", value: totalMensalidadesGeral.toLocaleString("pt-BR", { style: "currency", currency: "BRL" }), color: "text-teal-700" },
+                { title: "% ICM", value: `${icmGeral}%`, color: "text-orange-700" },
+            ];
+
+            summaryMetrics.forEach(metric => {
+                const card = document.createElement("div");
+                card.className = "card p-4 flex flex-col justify-center items-center text-center";
+                card.innerHTML = `
+                    <p class="text-sm font-medium text-gray-600 mb-1">${metric.title}</p>
+                    <p class="text-2xl font-bold ${metric.color}">${metric.value}</p>
+                `;
+                generalSummaryCardsContainer.appendChild(card);
+            });
+        }
+
+
         // Função para criar o card de um supervisor
         function createSupervisorCard(supervisor) {
             const totalVisitas = supervisor.consultores.reduce((s, c) => s + c.VISITAS, 0);
@@ -163,7 +213,7 @@
             const zerados = supervisor.consultores.filter(c => c.VISITAS === 0).length;
             const fte = supervisor.consultores.length;
 
-            const icm = totalPropostas > 0 ? ((totalMensalidades / totalMetaMensal) * 100).toFixed(1) : "0.0";
+            const icm = totalMetaMensal > 0 ? ((totalMensalidades / totalMetaMensal) * 100).toFixed(1) : "0.0";
             const mensalidadesPorFTE = fte > 0 ? (totalMensalidades / fte).toFixed(2) : "0.00";
             const percentZerados = fte > 0 ? ((zerados / fte) * 100).toFixed(1) : "0.0";
 
@@ -190,10 +240,10 @@
                 </div>
 
                 <div class="grid grid-cols-2 md:grid-cols-5 text-center text-base mb-4 gap-x-2 gap-y-2">
-                    <div class="font-bold text-green-700">${totalMetaMensal.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</div>
-                    <div class="font-bold text-blue-700">${totalMensalidades.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</div>
+                    <div class="font-bold text-green-700">${totalMetaMensal.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
+                    <div class="font-bold text-blue-700">${totalMensalidades.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
                     <div>${icm}%</div>
-                    <div>${Number(mensalidadesPorFTE).toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</div>
+                    <div>${Number(mensalidadesPorFTE).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
                     <div>${percentZerados}%</div>
                 </div>
 
@@ -211,15 +261,15 @@
                         </thead>
                         <tbody>
                             ${supervisor.consultores.map(c => {
-                                const tktMedio = c["PROP. FINLZD"]> 0 ? c.MENSALIDADES / c["PROP. FINLZD"] : 0;
+                                const tktMedio = c["PROP. FINLZD"] > 0 ? c.MENSALIDADES / c["PROP. FINLZD"] : 0;
                                 return `
                                     <tr class="border-t border-gray-100 hover:bg-gray-50">
                                         <td class="font-medium text-left px-2 py-2">${c.CONSULTOR}</td>
                                         <td>${c.VISITAS}</td>
                                         <td>${c.PROPOSTAS}</td>
                                         <td>${c["PROP. FINLZD"]}</td>
-                                        <td>${Number(c.MENSALIDADES).toLocaleString("pt-BR",{style:"currency",currency:"BRL"})}</td>
-                                        <td>${Number(tktMedio).toLocaleString("pt-BR", {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
+                                        <td>${Number(c.MENSALIDADES).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</td>
+                                        <td>${Number(tktMedio).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
                                     </tr>
                                 `;
                             }).join("")}
@@ -289,6 +339,10 @@
             if (searchTerm) {
                 filteredData = filteredData.filter(d => d.CONSULTOR.toLowerCase().includes(searchTerm));
             }
+
+            // Renderizar os cards de resumo geral com os dados filtrados
+            renderGeneralSummaryCards(filteredData);
+
 
             const groupedBySupervisor = groupDataBySupervisor(filteredData);
             renderCards(groupedBySupervisor);
