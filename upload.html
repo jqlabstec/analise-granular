@@ -140,7 +140,8 @@
                     PROPOSTAS: Number(item.PROPOSTAS),
                     'PROP. FINLZD': Number(item['PROP. FINLZD']),
                     MENSALIDADES: Number(item.MENSALIDADES),
-                    'TKT M\u00C9D': Number(item['TKT M\u00C9D'])
+                    'TKT M\u00C9D': Number(item['TKT M\u00C9D']),
+                    STATUS: item.STATUS ? item.STATUS.trim() : ""
                 }));
 
                 // Baixa o arquivo JSON

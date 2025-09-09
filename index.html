@@ -2,225 +2,261 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análise Granular</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background: #111827;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Análise Granular</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #111827;
+    }
 
-        .card {
-            background: white;
-            border-radius: 1rem;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
-            padding: 1.5rem;
-        }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+      padding: 1.5rem;
+    }
 
-        th,
-        td {
-            text-align: center;
-            padding: 0.75rem 0.5rem;
-        }
+    th,
+    td {
+      text-align: center;
+      padding: 0.75rem 0.5rem;
+    }
 
-        .table-responsive {
-            overflow-x: auto;
-        }
+    .table-responsive {
+      overflow-x: auto;
+    }
 
-        img {
-            border-radius: 5px;
-        }
-    </style>
+    img {
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 <body class="p-6">
 
-    <!-- Container principal para limitar a largura em telas grandes -->
-    <div class="max-w-[1600px] mx-auto">
-        <!-- Header com gradiente da paleta de cores e espaço para o logo -->
-        <header class="bg-blue-600 p-4 rounded-xl shadow-md mb-6"
-            style="background: linear-gradient(to right, #249788, #5a4ac7);">
-            <div class="flex items-center justify-between flex-wrap gap-4">
-                <!-- Espaço para o Logo e Título -->
-                <div class="flex items-center space-x-2 sm:space-x-4">
-                    <img src="/almavivaexperience_cover.jpeg" alt="Logo da empresa" class="h-8 sm:h-10">
-                    <h1 class="text-xl sm:text-2xl font-bold text-white">Análise Granular</h1>
-                </div>
-                <span class="text-sm text-white mt-2 sm:mt-0">Atualizado em: <span id="last-updated"></span></span>
-            </div>
-        </header>
+  <!-- Container principal para limitar a largura em telas grandes -->
+  <div class="max-w-[1600px] mx-auto">
+    <!-- Header com gradiente da paleta de cores e espaço para o logo -->
+    <header class="bg-blue-600 p-4 rounded-xl shadow-md mb-6" style="background: linear-gradient(to right, #249788, #5a4ac7);">
+      <div class="flex items-center justify-between flex-wrap gap-4">
+        <!-- Espaço para o Logo e Título -->
+        <div class="flex items-center space-x-2 sm:space-x-4">
+          <img src="/almavivaexperience_cover.jpeg" alt="Logo da empresa" class="h-8 sm:h-10">
+          <h1 class="text-xl sm:text-2xl font-bold text-white">Análise Granular</h1>
+        </div>
+        <span class="text-sm text-white mt-2 sm:mt-0">Atualizado em: <span id="last-updated"></span></span>
+      </div>
+    </header>
 
-        <!-- Filtros -->
-        <section class="card mb-6">
-            <h2 class="text-xl font-semibold mb-4 text-gray-800">Filtros</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="flex flex-col">
-                    <label for="date-filter" class="font-medium text-gray-700 block mb-1">Data</label>
-                    <input type="date" id="date-filter"
-                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
-                </div>
-                <div class="flex flex-col">
-                    <label for="supervisor-filter" class="font-medium text-gray-700 block mb-1">Supervisor</label>
-                    <select id="supervisor-filter"
-                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
-                </div>
-                <div class="flex flex-col">
-                    <label for="regional-filter" class="font-medium text-gray-700 block mb-1">Regional</label>
-                    <select id="regional-filter"
-                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
-                </div>
-                <div class="flex flex-col">
-                    <label for="consultant-filter" class="font-medium text-gray-700 block mb-1">Consultor</label>
-                    <input type="text" id="consultant-filter" placeholder="Nome do Consultor"
-                        class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
-                </div>
-            </div>
-        </section>
+    <!-- Filtros -->
+    <section class="card mb-6">
+      <h2 class="text-xl font-semibold mb-4 text-gray-800">Filtros</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="flex flex-col">
+          <label for="date-filter" class="font-medium text-gray-700 block mb-1">Data</label>
+          <input type="date" id="date-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+        <div class="flex flex-col">
+          <label for="supervisor-filter" class="font-medium text-gray-700 block mb-1">Supervisor</label>
+          <select id="supervisor-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
+        </div>
+        <div class="flex flex-col">
+          <label for="regional-filter" class="font-medium text-gray-700 block mb-1">Regional</label>
+          <select id="regional-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500"></select>
+        </div>
+        <div class="flex flex-col">
+          <label for="consultant-filter" class="font-medium text-gray-700 block mb-1">Consultor</label>
+          <input type="text" id="consultant-filter" placeholder="Nome do Consultor" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+<div class="flex flex-col mt-4">
+<label for="status-filter" class="font-medium text-gray-700 block mb-1">Status</label>
+<select id="status-filter"
+ class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+<option value="Todos">Todos</option>
+<option value="ATIVO">ATIVO</option>
+<option value="DESLIG">DESLIG</option>
+<option value="AFAST">AFAST</option>
+</select>
+</div>
+      </div>
+    </section>
 
-        <!-- Cards Gerais de Resumo -->
-        <section id="general-summary-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-            <!-- Os cards gerais serão renderizados aqui -->
-        </section>
+    <!-- Cards Gerais de Resumo -->
+    <section id="general-summary-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+      <!-- Os cards gerais serão renderizados aqui -->
+    </section>
 
-        <!-- Cards dos Supervisores - Alterado para grid responsivo -->
-        <main id="cards-container" class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
-        </main>
-    </div>
+    <!-- Cards dos Supervisores - Alterado para grid responsivo -->
+    <main id="cards-container" class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
+    </main>
+  </div>
 
-    <script>
-        const cardsContainer = document.getElementById("cards-container");
-        const generalSummaryCardsContainer = document.getElementById("general-summary-cards"); // Novo contêiner
-        const supervisorFilter = document.getElementById("supervisor-filter");
-        const regionalFilter = document.getElementById("regional-filter");
-        const dateFilter = document.getElementById("date-filter");
-        const consultantFilter = document.getElementById("consultant-filter");
-        const lastUpdated = document.getElementById("last-updated");
+  <script>
+    const cardsContainer = document.getElementById("cards-container");
+    const generalSummaryCardsContainer = document.getElementById("general-summary-cards"); // Novo contêiner
+    const supervisorFilter = document.getElementById("supervisor-filter");
+    const regionalFilter = document.getElementById("regional-filter");
+    const dateFilter = document.getElementById("date-filter");
+    const consultantFilter = document.getElementById("consultant-filter");
+    const statusFilter = document.getElementById("status-filter");
+    const lastUpdated = document.getElementById("last-updated");
 
-        let allConsultantData = []; // Armazena todos os dados brutos
-        let processedData = []; // Armazena dados com a data convertida
-        let uniqueDates = [];
-        let uniqueSupervisors = [];
-        let uniqueRegionals = [];
+    let allConsultantData = []; // Armazena todos os dados brutos
+    let processedData = []; // Armazena dados com a data convertida
+    let uniqueDates = [];
+    let uniqueSupervisors = [];
+    let uniqueRegionals = [];
 
-        function excelSerialDateToYYYYMMDD(serial) {
-            if (typeof serial !== 'number' || serial <= 0) return null;
-            const msSinceEpoch = (serial - 25569) * 24 * 60 * 60 * 1000;
-            const date = new Date(msSinceEpoch);
+    function excelSerialDateToYYYYMMDD(serial) {
+      if (typeof serial !== 'number' || serial <= 0) return null;
+      const msSinceEpoch = (serial - 25569) * 24 * 60 * 60 * 1000;
+      const date = new Date(msSinceEpoch);
 
-            const year = date.getFullYear();
-            const month = String(date.getMonth() + 1).padStart(2, '0');
-            const day = String(date.getDate()).padStart(2, '0');
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
 
-            if (year < 2000 || year > 2050) {
-                console.warn(`Data convertida (${year}-${month}-${day}) parece irrazoável para serial ${serial}. Verifique a função de conversão.`);
-                return null;
-            }
-            return `${year}-${month}-${day}`;
+      if (year < 2000 || year > 2050) {
+        console.warn(`Data convertida (${year}-${month}-${day}) parece irrazoável para serial ${serial}. Verifique a função de conversão.`);
+        return null;
+      }
+      return `${year}-${month}-${day}`;
+    }
+
+    // Função para agrupar dados por supervisor e acumular valores por consultor
+    function groupDataBySupervisor(data) {
+      const grouped = {};
+      data.forEach(item => {
+        const supervisorName = item.SUPERVISOR;
+        const consultantName = item.CONSULTOR;
+
+        if (!grouped[supervisorName]) {
+          grouped[supervisorName] = {
+            supervisor: supervisorName,
+            regional: item.REGIONAL,
+            consultores: {}
+          };
         }
 
-        // Função para agrupar dados por supervisor e acumular valores por consultor
-        function groupDataBySupervisor(data) {
-            const grouped = {};
-            data.forEach(item => {
-                const supervisorName = item.SUPERVISOR;
-                const consultantName = item.CONSULTOR;
-
-                if (!grouped[supervisorName]) {
-                    grouped[supervisorName] = {
-                        supervisor: supervisorName,
-                        regional: item.REGIONAL,
-                        consultores: {}
-                    };
-                }
-
-                const supData = grouped[supervisorName];
-                if (!supData.consultores[consultantName]) {
-                    supData.consultores[consultantName] = {
-                        CONSULTOR: consultantName,
-                        VISITAS: 0,
-                        PROPOSTAS: 0,
-                        "PROP. FINLZD": 0,
-                        MENSALIDADES: 0,
-                        META: 0
-                    };
-                }
-
-                const consData = supData.consultores[consultantName];
-                consData.VISITAS += Number(item.VISITAS || 0);
-                consData.PROPOSTAS += Number(item.PROPOSTAS || 0);
-                consData["PROP. FINLZD"] += Number(item["PROP. FINLZD"] || 0);
-                consData.MENSALIDADES += Number(item.MENSALIDADES || 0);
-                consData.META += Number(item.META || 0);
-            });
-
-            const supervisorsArray = Object.values(grouped).map(sup => {
-                sup.consultores = Object.values(sup.consultores);
-                return sup;
-            });
-
-            return supervisorsArray;
+        const supData = grouped[supervisorName];
+        if (!supData.consultores[consultantName]) {
+          supData.consultores[consultantName] = {
+            CONSULTOR: consultantName,
+            VISITAS: 0,
+            STATUS: item.STATUS || "N/A",
+            PROPOSTAS: 0,
+            "PROP. FINLZD": 0,
+            MENSALIDADES: 0,
+            META: 0
+          };
         }
 
-        // NOVA FUNÇÃO: Renderizar os cards de resumo geral
-        function renderGeneralSummaryCards(data) {
-            generalSummaryCardsContainer.innerHTML = "";
+        const consData = supData.consultores[consultantName];
+        consData.VISITAS += Number(item.VISITAS || 0);
+        consData.PROPOSTAS += Number(item.PROPOSTAS || 0);
+        consData["PROP. FINLZD"] += Number(item["PROP. FINLZD"] || 0);
+        consData.MENSALIDADES += Number(item.MENSALIDADES || 0);
+        consData.META += Number(item.META || 0);
+      });
 
-            if (data.length === 0) {
-                generalSummaryCardsContainer.innerHTML = "<p class='text-center text-gray-500 text-lg col-span-full'>Nenhum dado geral encontrado.</p>";
-                return;
-            }
+      const supervisorsArray = Object.values(grouped).map(sup => {
+        sup.consultores = Object.values(sup.consultores);
+        return sup;
+      });
 
-            const totalMetaGeral = data.reduce((sum, item) => sum + Number(item.META || 0), 0);
-            const totalVisitasGeral = data.reduce((sum, item) => sum + Number(item.VISITAS || 0), 0);
-            const totalPropostasGeral = data.reduce((sum, item) => sum + Number(item.PROPOSTAS || 0), 0);
-            const totalFinalizadasGeral = data.reduce((sum, item) => sum + Number(item["PROP. FINLZD"] || 0), 0);
-            const totalMensalidadesGeral = data.reduce((sum, item) => sum + Number(item.MENSALIDADES || 0), 0);
+      return supervisorsArray;
+    }
 
-            const icmGeral = totalMensalidadesGeral > 0 && totalMetaGeral > 0 ? ((totalMensalidadesGeral / totalMetaGeral) * 100).toFixed(1) : "0.0";
+    // NOVA FUNÇÃO: Renderizar os cards de resumo geral
+    function renderGeneralSummaryCards(data) {
+      generalSummaryCardsContainer.innerHTML = "";
 
-            // Dados para os cards gerais
-            const summaryMetrics = [
-                { title: "Meta Total", value: totalMetaGeral.toLocaleString("pt-BR", { style: "currency", currency: "BRL" }), color: "text-green-700" },
-                { title: "Total de Visitas", value: totalVisitasGeral.toLocaleString("pt-BR"), color: "text-blue-700" },
-                { title: "Total de Propostas", value: totalPropostasGeral.toLocaleString("pt-BR"), color: "text-purple-700" },
-                { title: "Total Prop. Finlzd", value: totalFinalizadasGeral.toLocaleString("pt-BR"), color: "text-indigo-700" },
-                { title: "Total de Mensalidades", value: totalMensalidadesGeral.toLocaleString("pt-BR", { style: "currency", currency: "BRL" }), color: "text-teal-700" },
-                { title: "% ICM", value: `${icmGeral}%`, color: "text-orange-700" },
-            ];
+      if (data.length === 0) {
+        generalSummaryCardsContainer.innerHTML = "<p class='text-center text-gray-500 text-lg col-span-full'>Nenhum dado geral encontrado.</p>";
+        return;
+      }
 
-            summaryMetrics.forEach(metric => {
-                const card = document.createElement("div");
-                card.className = "card p-4 flex flex-col justify-center items-center text-center";
-                card.innerHTML = `
+      const totalMetaGeral = data.reduce((sum, item) => sum + Number(item.META || 0), 0);
+      const totalVisitasGeral = data.reduce((sum, item) => sum + Number(item.VISITAS || 0), 0);
+      const totalPropostasGeral = data.reduce((sum, item) => sum + Number(item.PROPOSTAS || 0), 0);
+      const totalFinalizadasGeral = data.reduce((sum, item) => sum + Number(item["PROP. FINLZD"] || 0), 0);
+      const totalMensalidadesGeral = data.reduce((sum, item) => sum + Number(item.MENSALIDADES || 0), 0);
+
+      const icmGeral = totalMensalidadesGeral > 0 && totalMetaGeral > 0 ? ((totalMensalidadesGeral / totalMetaGeral) * 100).toFixed(1) : "0.0";
+
+      // Dados para os cards gerais
+      const summaryMetrics = [{
+          title: "Meta Total",
+          value: totalMetaGeral.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+          }),
+          color: "text-green-700"
+        },
+        {
+          title: "Total de Visitas",
+          value: totalVisitasGeral.toLocaleString("pt-BR"),
+          color: "text-blue-700"
+        },
+        {
+          title: "Total de Propostas",
+          value: totalPropostasGeral.toLocaleString("pt-BR"),
+          color: "text-purple-700"
+        },
+        {
+          title: "Total Prop. Finlzd",
+          value: totalFinalizadasGeral.toLocaleString("pt-BR"),
+          color: "text-indigo-700"
+        },
+        {
+          title: "Total de Mensalidades",
+          value: totalMensalidadesGeral.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+          }),
+          color: "text-teal-700"
+        },
+        {
+          title: "% ICM",
+          value: `${icmGeral}%`,
+          color: "text-orange-700"
+        },
+      ];
+
+      summaryMetrics.forEach(metric => {
+        const card = document.createElement("div");
+        card.className = "card p-4 flex flex-col justify-center items-center text-center";
+        card.innerHTML = `
                     <p class="text-sm font-medium text-gray-600 mb-1">${metric.title}</p>
                     <p class="text-2xl font-bold ${metric.color}">${metric.value}</p>
                 `;
-                generalSummaryCardsContainer.appendChild(card);
-            });
-        }
+        generalSummaryCardsContainer.appendChild(card);
+      });
+    }
 
 
-        // Função para criar o card de um supervisor
-        function createSupervisorCard(supervisor) {
-            const totalVisitas = supervisor.consultores.reduce((s, c) => s + c.VISITAS, 0);
-            const totalPropostas = supervisor.consultores.reduce((s, c) => s + c.PROPOSTAS, 0);
-            const totalFinalizadas = supervisor.consultores.reduce((s, c) => s + c["PROP. FINLZD"], 0);
-            const totalMensalidades = supervisor.consultores.reduce((s, c) => s + c.MENSALIDADES, 0);
-            const totalMetaMensal = supervisor.consultores.reduce((s, c) => s + c.META, 0);
+    // Função para criar o card de um supervisor
+    function createSupervisorCard(supervisor) {
+      const totalVisitas = supervisor.consultores.reduce((s, c) => s + c.VISITAS, 0);
+      const totalPropostas = supervisor.consultores.reduce((s, c) => s + c.PROPOSTAS, 0);
+      const totalFinalizadas = supervisor.consultores.reduce((s, c) => s + c["PROP. FINLZD"], 0);
+      const totalMensalidades = supervisor.consultores.reduce((s, c) => s + c.MENSALIDADES, 0);
+      const totalMetaMensal = supervisor.consultores.reduce((s, c) => s + c.META, 0);
 
-            const zerados = supervisor.consultores.filter(c => c.VISITAS === 0).length;
-            const fte = supervisor.consultores.length;
+      const zerados = supervisor.consultores.filter(c => c.VISITAS === 0).length;
+      const fte = supervisor.consultores.length;
 
-            const icm = totalMetaMensal > 0 ? ((totalMensalidades / totalMetaMensal) * 100).toFixed(1) : "0.0";
-            const mensalidadesPorFTE = fte > 0 ? (totalMensalidades / fte).toFixed(2) : "0.00";
-            const percentZerados = fte > 0 ? ((zerados / fte) * 100).toFixed(1) : "0.0";
+      const icm = totalMetaMensal > 0 ? ((totalMensalidades / totalMetaMensal) * 100).toFixed(1) : "0.0";
+      const mensalidadesPorFTE = fte > 0 ? (totalMensalidades / fte).toFixed(2) : "0.00";
+      const percentZerados = fte > 0 ? ((zerados / fte) * 100).toFixed(1) : "0.0";
 
-            const card = document.createElement("div");
-            card.className = "card w-full max-w-[800px]";
+      const card = document.createElement("div");
+      card.className = "card w-full max-w-[800px]";
 
-            card.innerHTML = `
+      card.innerHTML = `
                 <div class="flex items-center gap-4 mb-4">
                     <div class="w-16 h-16 min-w-[4rem] rounded-full flex items-center justify-center text-white text-2xl font-bold" style="background: #5a4ac7;">
                         ${supervisor.supervisor ? supervisor.supervisor.charAt(0).toUpperCase() : 'S'}
@@ -252,6 +288,7 @@
                         <thead class="bg-gray-100">
                             <tr>
                                 <th class="py-2">Consultor</th>
+                                <th class="py-2">Status</th>                                
                                 <th class="py-2">Visitas</th>
                                 <th class="py-2">Propostas</th>
                                 <th class="py-2">Prop. Finlzd</th>
@@ -260,146 +297,159 @@
                             </tr>
                         </thead>
                         <tbody>
-                            ${supervisor.consultores.map(c => {
-                                const tktMedio = c["PROP. FINLZD"] > 0 ? c.MENSALIDADES / c["PROP. FINLZD"] : 0;
-                                return `
-                                    <tr class="border-t border-gray-100 hover:bg-gray-50">
-                                        <td class="font-medium text-left px-2 py-2">${c.CONSULTOR}</td>
-                                        <td>${c.VISITAS}</td>
-                                        <td>${c.PROPOSTAS}</td>
-                                        <td>${c["PROP. FINLZD"]}</td>
-                                        <td>${Number(c.MENSALIDADES).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</td>
-                                        <td>${Number(tktMedio).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
-                                    </tr>
-                                `;
-                            }).join("")}
-                        </tbody>
-                    </table>
-                </div>
-            `;
-            return card;
-        }
+${supervisor.consultores.map(c => {
+const tktMedio = c["PROP. FINLZD"] > 0 ? c.MENSALIDADES / c["PROP. FINLZD"] : 0;
+const statusClass = c.STATUS === "ATIVO" ? "bg-green-500" : "bg-red-500";
+return `
+ <tr class="border-t border-gray-100 hover:bg-gray-50">
+<td class="font-medium text-left px-2 py-2">${c.CONSULTOR}</td>
+<td class="py-2">
+ <div class="flex items-center justify-center">
+ <div class="h-2 w-2 rounded-full ${statusClass} mr-2"></div>
+${c.STATUS}
+</div>
+ </td>
+<td>${c.VISITAS}</td>
+<td>${c.PROPOSTAS}</td>
+<td>${c["PROP. FINLZD"]}</td>
+   <td>${Number(c.MENSALIDADES).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</td>
+<td>${Number(tktMedio).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
+</tr>
+`;
+ }).join("")}
+</tbody>
+</table>
+</div>
+ `;
+      return card;
+    }
 
-        // Função para popular os filtros
-        function populateFilters() {
-            uniqueDates = [...new Set(processedData
-                .map(d => d.DATA_FORMATTED)
-                .filter(Boolean))]
-                .sort((a, b) => new Date(b) - new Date(a));
+    // Função para popular os filtros
+    function populateFilters() {
+      uniqueDates = [...new Set(processedData
+          .map(d => d.DATA_FORMATTED)
+          .filter(Boolean))]
+        .sort((a, b) => new Date(b) - new Date(a));
 
-            uniqueSupervisors = [...new Set(processedData.map(d => d.SUPERVISOR))].sort();
-            uniqueRegionals = [...new Set(processedData.map(d => d.REGIONAL))].sort();
+      uniqueSupervisors = [...new Set(processedData.map(d => d.SUPERVISOR))].sort();
+      uniqueRegionals = [...new Set(processedData.map(d => d.REGIONAL))].sort();
 
-            regionalFilter.innerHTML = `<option value="Todos">Todos</option>` + uniqueRegionals.map(r => `<option value="${r}">${r}</option>`).join("");
-            updateSupervisorFilterOptions("Todos");
+      regionalFilter.innerHTML = `<option value="Todos">Todos</option>` + uniqueRegionals.map(r => `<option value="${r}">${r}</option>`).join("");
+      updateSupervisorFilterOptions("Todos");
 
-            if (uniqueDates.length > 0) {
-                dateFilter.value = uniqueDates[0];
-            } else {
-                dateFilter.value = "";
-            }
-        }
+      if (uniqueDates.length > 0) {
+        dateFilter.value = uniqueDates[0];
+      } else {
+        dateFilter.value = "";
+      }
+    }
 
-        function updateSupervisorFilterOptions(selectedRegional) {
-            let supervisorsToDisplay = [];
-            if (selectedRegional === "Todos") {
-                supervisorsToDisplay = uniqueSupervisors;
-            } else {
-                supervisorsToDisplay = [...new Set(processedData
-                    .filter(d => d.REGIONAL === selectedRegional)
-                    .map(d => d.SUPERVISOR)
-                )].sort();
-            }
+    function updateSupervisorFilterOptions(selectedRegional) {
+      let supervisorsToDisplay = [];
+      if (selectedRegional === "Todos") {
+        supervisorsToDisplay = uniqueSupervisors;
+      } else {
+        supervisorsToDisplay = [...new Set(processedData
+          .filter(d => d.REGIONAL === selectedRegional)
+          .map(d => d.SUPERVISOR)
+        )].sort();
+      }
 
-            const currentSupervisorValue = supervisorFilter.value;
-            supervisorFilter.innerHTML = `<option value="Todos">Todos</option>` + supervisorsToDisplay.map(s => `<option value="${s}">${s}</option>`).join("");
+      const currentSupervisorValue = supervisorFilter.value;
+      supervisorFilter.innerHTML = `<option value="Todos">Todos</option>` + supervisorsToDisplay.map(s => `<option value="${s}">${s}</option>`).join("");
 
-            if (supervisorsToDisplay.includes(currentSupervisorValue) || currentSupervisorValue === 'Todos') {
-                supervisorFilter.value = currentSupervisorValue;
-            }
-        }
+      if (supervisorsToDisplay.includes(currentSupervisorValue) || currentSupervisorValue === 'Todos') {
+        supervisorFilter.value = currentSupervisorValue;
+      }
+    }
 
-        function applyFilters() {
-            let filteredData = [...processedData];
+    function applyFilters() {
+      let filteredData = [...processedData];
 
-            if (dateFilter.value) {
-                const selectedDate = dateFilter.value;
-                filteredData = filteredData.filter(d => d.DATA_FORMATTED <= selectedDate);
-            }
+      if (dateFilter.value) {
+        const selectedDate = dateFilter.value;
+        filteredData = filteredData.filter(d => d.DATA_FORMATTED <= selectedDate);
+      }
 
-            if (supervisorFilter.value !== "Todos") {
-                filteredData = filteredData.filter(d => d.SUPERVISOR === supervisorFilter.value);
-            }
+      if (supervisorFilter.value !== "Todos") {
+        filteredData = filteredData.filter(d => d.SUPERVISOR === supervisorFilter.value);
+      }
 
-            if (regionalFilter.value !== "Todos") {
-                filteredData = filteredData.filter(d => d.REGIONAL === regionalFilter.value);
-            }
+      if (regionalFilter.value !== "Todos") {
+        filteredData = filteredData.filter(d => d.REGIONAL === regionalFilter.value);
+      }
 
-            const searchTerm = consultantFilter.value.trim().toLowerCase();
-            if (searchTerm) {
-                filteredData = filteredData.filter(d => d.CONSULTOR.toLowerCase().includes(searchTerm));
-            }
+      const searchTerm = consultantFilter.value.trim().toLowerCase();
+      if (searchTerm) {
+        filteredData = filteredData.filter(d => d.CONSULTOR.toLowerCase().includes(searchTerm));
+      }
 
-            // Renderizar os cards de resumo geral com os dados filtrados
-            renderGeneralSummaryCards(filteredData);
+      if (statusFilter.value !== "Todos") {
+        filteredData = filteredData.filter(d => d.STATUS === statusFilter.value);
+      }
+
+      // Renderizar os cards de resumo geral com os dados filtrados
+      renderGeneralSummaryCards(filteredData);
 
 
-            const groupedBySupervisor = groupDataBySupervisor(filteredData);
-            renderCards(groupedBySupervisor);
-        }
+      const groupedBySupervisor = groupDataBySupervisor(filteredData);
+      renderCards(groupedBySupervisor);
+    }
 
-        function renderCards(data) {
-            cardsContainer.innerHTML = "";
-            if (data.length === 0) {
-                cardsContainer.innerHTML = "<p class='text-center text-gray-500 text-lg col-span-full'>Nenhum dado encontrado com os filtros aplicados.</p>";
-            } else {
-                data.forEach(sup => cardsContainer.appendChild(createSupervisorCard(sup)));
-            }
-        }
+    function renderCards(data) {
+      cardsContainer.innerHTML = "";
+      if (data.length === 0) {
+        cardsContainer.innerHTML = "<p class='text-center text-gray-500 text-lg col-span-full'>Nenhum dado encontrado com os filtros aplicados.</p>";
+      } else {
+        data.forEach(sup => cardsContainer.appendChild(createSupervisorCard(sup)));
+      }
+    }
 
-        async function init() {
-            try {
-                const response = await fetch("data.json");
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                allConsultantData = await response.json();
+    async function init() {
+      try {
+        const response = await fetch("data.json");
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        allConsultantData = await response.json();
 
-                processedData = allConsultantData.map(item => {
-                    let formatted;
+        processedData = allConsultantData.map(item => {
+          let formatted;
 
-                    if (typeof item.DATA === "string" && item.DATA.includes("/")) {
-                        const [dia, mes, ano] = item.DATA.split("/");
-                        formatted = `${ano}-${mes.padStart(2, "0")}-${dia.padStart(2, "0")}`;
-                    } else if (typeof item.DATA === "number") {
-                        formatted = excelSerialDateToYYYYMMDD(item.DATA);
-                    } else {
-                        formatted = item.DATA;
-                    }
+          if (typeof item.DATA === "string" && item.DATA.includes("/")) {
+            const [dia, mes, ano] = item.DATA.split("/");
+            formatted = `${ano}-${mes.padStart(2, "0")}-${dia.padStart(2, "0")}`;
+          } else if (typeof item.DATA === "number") {
+            formatted = excelSerialDateToYYYYMMDD(item.DATA);
+          } else {
+            formatted = item.DATA;
+          }
 
-                    return {
-                        ...item,
-                        DATA_FORMATTED: formatted
-                    };
-                });
-
-                populateFilters();
-                applyFilters();
-                lastUpdated.textContent = new Date().toLocaleDateString("pt-BR");
-            } catch (err) {
-                console.error("Erro ao carregar ou processar os dados:", err);
-                cardsContainer.innerHTML = "<p class='text-center text-red-500 text-lg col-span-full'>Ocorreu um erro ao carregar os dados. Tente novamente mais tarde.</p>";
-            }
-        }
-
-        dateFilter.addEventListener("change", applyFilters);
-        supervisorFilter.addEventListener("change", applyFilters);
-        consultantFilter.addEventListener("input", applyFilters);
-        regionalFilter.addEventListener("change", (e) => {
-            updateSupervisorFilterOptions(e.target.value);
-            applyFilters();
+          return {
+            ...item,
+            STATUS: (item.STATUS || "").trim().toUpperCase(),
+            DATA_FORMATTED: formatted
+          };
         });
 
-        document.addEventListener("DOMContentLoaded", init);
-    </script>
+        populateFilters();
+        applyFilters();
+        lastUpdated.textContent = new Date().toLocaleDateString("pt-BR");
+      } catch (err) {
+        console.error("Erro ao carregar ou processar os dados:", err);
+        cardsContainer.innerHTML = "<p class='text-center text-red-500 text-lg col-span-full'>Ocorreu um erro ao carregar os dados. Tente novamente mais tarde.</p>";
+      }
+    }
+
+    dateFilter.addEventListener("change", applyFilters);
+    supervisorFilter.addEventListener("change", applyFilters);
+    consultantFilter.addEventListener("input", applyFilters);
+    statusFilter.addEventListener('change', applyFilters);
+    regionalFilter.addEventListener("change", (e) => {
+      updateSupervisorFilterOptions(e.target.value);
+      applyFilters();
+    });
+
+    document.addEventListener("DOMContentLoaded", init);
+  </script>
 </body>
 
 </html>
