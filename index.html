@@ -254,7 +254,7 @@ const supervisorsArray = Object.values(grouped).map(sup => {
       const totalMensalidades = supervisor.consultores.reduce((s, c) => s + c.MENSALIDADES, 0);
       const totalMetaMensal = supervisor.consultores.reduce((s, c) => s + c.META, 0);
 
-      const zerados = supervisor.consultores.filter(c => c.VISITAS === 0).length;
+      const zerados = supervisor.consultores.filter(c => c.MENSALIDADES === 0).length;
       const fte = supervisor.consultores.length;
 
       const icm = totalMetaMensal > 0 ? ((totalMensalidades / totalMetaMensal) * 100).toFixed(1) : "0.0";
