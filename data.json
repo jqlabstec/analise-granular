@@ -580,7 +580,7 @@
     "SUPERVISOR": "JORGE ALBERTO",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 13,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -1420,8 +1420,8 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 4,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -1840,11 +1840,11 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 4,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 383.18,
+    "TKT MÉD": 383.18,
     "STATUS": "ATIVO"
   },
   {
@@ -2680,7 +2680,7 @@
     "SUPERVISOR": "RODRIGO ALVES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 14,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -3100,7 +3100,7 @@
     "SUPERVISOR": "CYNTIA GUEDES",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 1,
+    "VISITAS": 8,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -4780,7 +4780,7 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 22,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -7328,7 +7328,7 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -7720,7 +7720,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 4,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -7748,7 +7748,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 26,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -8602,7 +8602,7 @@
     "SUPERVISOR": "KALYL MESSIAS",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 18,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -8980,8 +8980,8 @@
     "SUPERVISOR": "KALYL MESSIAS",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 2,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -9251,7 +9251,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 662,
@@ -9265,7 +9265,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 663,
@@ -9279,7 +9279,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 664,
@@ -9293,7 +9293,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 665,
@@ -9307,7 +9307,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 666,
@@ -9321,7 +9321,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 667,
@@ -9335,7 +9335,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 668,
@@ -9349,7 +9349,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 669,
@@ -9363,7 +9363,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 670,
@@ -9377,7 +9377,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 671,
@@ -9391,7 +9391,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 672,
@@ -9405,7 +9405,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 673,
@@ -9419,7 +9419,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 674,
@@ -9433,7 +9433,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 675,
@@ -9447,7 +9447,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 676,
@@ -9461,7 +9461,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 677,
@@ -9475,7 +9475,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 678,
@@ -9489,7 +9489,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 679,
@@ -9503,7 +9503,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 680,
@@ -9517,7 +9517,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 681,
@@ -9531,7 +9531,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 682,
@@ -9545,7 +9545,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 683,
@@ -9559,7 +9559,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 684,
@@ -9573,7 +9573,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 685,
@@ -9587,7 +9587,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 686,
@@ -9601,7 +9601,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 687,
@@ -9615,7 +9615,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 688,
@@ -9629,7 +9629,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 689,
@@ -9643,7 +9643,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 690,
@@ -9657,7 +9657,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 691,
@@ -11920,7 +11920,7 @@
     "SUPERVISOR": "RODRIGO ALVES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 23,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -12340,7 +12340,7 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 16,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -12760,7 +12760,7 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 17,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -13180,7 +13180,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 13,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -13559,7 +13559,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
     "VISITAS": 0,
-    "PROPOSTAS": 1,
+    "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -13600,11 +13600,11 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 13,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 485.66,
+    "TKT MÉD": 485.66,
     "STATUS": "ATIVO"
   },
   {
@@ -14020,7 +14020,7 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 5,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -14441,7 +14441,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 7,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -16540,7 +16540,7 @@
     "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -16960,8 +16960,8 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 19,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -17381,10 +17381,10 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 359.65,
+    "TKT MÉD": 359.65,
     "STATUS": "ATIVO"
   },
   {
@@ -17408,7 +17408,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -18220,7 +18220,7 @@
     "SUPERVISOR": "WILLIAN MARECO",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 5,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -20741,7 +20741,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -20768,7 +20768,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 2,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -21160,7 +21160,7 @@
     "SUPERVISOR": "WELINGTON MAX",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 18,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -21431,7 +21431,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1532,
@@ -21445,7 +21445,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1533,
@@ -21459,7 +21459,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1534,
@@ -21473,7 +21473,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1535,
@@ -21487,7 +21487,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1536,
@@ -21501,7 +21501,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1537,
@@ -21515,7 +21515,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1538,
@@ -21529,7 +21529,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1539,
@@ -21543,7 +21543,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1540,
@@ -21557,7 +21557,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1541,
@@ -21571,7 +21571,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1542,
@@ -21585,7 +21585,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1543,
@@ -21599,7 +21599,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1544,
@@ -21613,7 +21613,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1545,
@@ -21627,7 +21627,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1546,
@@ -21641,7 +21641,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1547,
@@ -21655,7 +21655,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1548,
@@ -21669,7 +21669,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1549,
@@ -21683,7 +21683,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1550,
@@ -21697,7 +21697,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1551,
@@ -21711,7 +21711,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1552,
@@ -21725,7 +21725,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1553,
@@ -21739,7 +21739,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1554,
@@ -21753,7 +21753,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1555,
@@ -21767,7 +21767,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1556,
@@ -21781,7 +21781,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1557,
@@ -21795,7 +21795,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1558,
@@ -21809,7 +21809,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1559,
@@ -21823,7 +21823,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1560,
@@ -21837,7 +21837,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1561,
@@ -22295,7 +22295,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
     "VISITAS": 1,
-    "PROPOSTAS": 5,
+    "PROPOSTAS": 4,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -22420,8 +22420,8 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 3,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -22448,7 +22448,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 16,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -22462,7 +22462,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -23111,7 +23111,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1652,
@@ -23125,7 +23125,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1653,
@@ -23139,7 +23139,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1654,
@@ -23153,7 +23153,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1655,
@@ -23167,7 +23167,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1656,
@@ -23181,7 +23181,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1657,
@@ -23195,7 +23195,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1658,
@@ -23209,7 +23209,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1659,
@@ -23223,7 +23223,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1660,
@@ -23237,7 +23237,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1661,
@@ -23251,7 +23251,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1662,
@@ -23265,7 +23265,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1663,
@@ -23279,7 +23279,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1664,
@@ -23293,7 +23293,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1665,
@@ -23307,7 +23307,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1666,
@@ -23321,7 +23321,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1667,
@@ -23335,7 +23335,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1668,
@@ -23349,7 +23349,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1669,
@@ -23363,7 +23363,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1670,
@@ -23377,7 +23377,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1671,
@@ -23391,7 +23391,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1672,
@@ -23405,7 +23405,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1673,
@@ -23419,7 +23419,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1674,
@@ -23433,7 +23433,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1675,
@@ -23447,7 +23447,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1676,
@@ -23461,7 +23461,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1677,
@@ -23475,7 +23475,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1678,
@@ -23489,7 +23489,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1679,
@@ -23503,7 +23503,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1680,
@@ -23517,7 +23517,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1681,
@@ -24371,7 +24371,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1742,
@@ -24385,7 +24385,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1743,
@@ -24399,7 +24399,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1744,
@@ -24413,7 +24413,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1745,
@@ -24427,7 +24427,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1746,
@@ -24441,7 +24441,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1747,
@@ -24455,7 +24455,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1748,
@@ -24469,7 +24469,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1749,
@@ -24483,7 +24483,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1750,
@@ -24497,7 +24497,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1751,
@@ -24511,7 +24511,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1752,
@@ -24525,7 +24525,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1753,
@@ -24539,7 +24539,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1754,
@@ -24553,7 +24553,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1755,
@@ -24567,7 +24567,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1756,
@@ -24581,7 +24581,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1757,
@@ -24595,7 +24595,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1758,
@@ -24609,7 +24609,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1759,
@@ -24623,7 +24623,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1760,
@@ -24637,7 +24637,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1761,
@@ -24651,7 +24651,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1762,
@@ -24665,7 +24665,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1763,
@@ -24679,7 +24679,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1764,
@@ -24693,7 +24693,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1765,
@@ -24707,7 +24707,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1766,
@@ -24721,7 +24721,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1767,
@@ -24735,7 +24735,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1768,
@@ -24749,7 +24749,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1769,
@@ -24763,7 +24763,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1770,
@@ -24777,7 +24777,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 1771,
@@ -25360,7 +25360,7 @@
     "SUPERVISOR": "CYNTIA GUEDES",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 14,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -26200,7 +26200,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 9,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -26214,7 +26214,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 7,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -28720,7 +28720,7 @@
     "SUPERVISOR": "WILLIAN MARECO",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -29140,7 +29140,7 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 14,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -29980,8 +29980,8 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 19,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -30400,8 +30400,8 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 11,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -30428,7 +30428,7 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 4,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -30671,7 +30671,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2192,
@@ -30685,7 +30685,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2193,
@@ -30699,7 +30699,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2194,
@@ -30713,7 +30713,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2195,
@@ -30727,7 +30727,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2196,
@@ -30741,7 +30741,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2197,
@@ -30755,7 +30755,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2198,
@@ -30769,7 +30769,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2199,
@@ -30783,7 +30783,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2200,
@@ -30797,7 +30797,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2201,
@@ -30811,7 +30811,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2202,
@@ -30825,7 +30825,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2203,
@@ -30839,7 +30839,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2204,
@@ -30853,7 +30853,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2205,
@@ -30867,7 +30867,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2206,
@@ -30881,7 +30881,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2207,
@@ -30895,7 +30895,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2208,
@@ -30909,7 +30909,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2209,
@@ -30923,7 +30923,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2210,
@@ -30937,7 +30937,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2211,
@@ -30951,7 +30951,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2212,
@@ -30965,7 +30965,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2213,
@@ -30979,7 +30979,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2214,
@@ -30993,7 +30993,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2215,
@@ -31007,7 +31007,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2216,
@@ -31021,7 +31021,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2217,
@@ -31035,7 +31035,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2218,
@@ -31049,7 +31049,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2219,
@@ -31063,7 +31063,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2220,
@@ -31077,7 +31077,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2221,
@@ -31983,7 +31983,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
     "VISITAS": 5,
-    "PROPOSTAS": 10,
+    "PROPOSTAS": 9,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -32080,11 +32080,11 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 11,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 2624.71,
+    "TKT MÉD": 2624.71,
     "STATUS": "ATIVO"
   },
   {
@@ -32500,7 +32500,7 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 13,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -34180,8 +34180,8 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 2,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -34600,8 +34600,8 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 6,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -36551,7 +36551,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2612,
@@ -36565,7 +36565,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2613,
@@ -36579,7 +36579,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2614,
@@ -36593,7 +36593,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2615,
@@ -36607,7 +36607,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2616,
@@ -36621,7 +36621,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2617,
@@ -36635,7 +36635,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2618,
@@ -36649,7 +36649,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2619,
@@ -36663,7 +36663,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2620,
@@ -36677,7 +36677,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2621,
@@ -36691,7 +36691,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2622,
@@ -36705,7 +36705,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2623,
@@ -36719,7 +36719,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2624,
@@ -36733,7 +36733,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2625,
@@ -36747,7 +36747,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2626,
@@ -36761,7 +36761,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2627,
@@ -36775,7 +36775,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2628,
@@ -36789,7 +36789,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2629,
@@ -36803,7 +36803,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2630,
@@ -36817,7 +36817,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2631,
@@ -36831,7 +36831,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2632,
@@ -36845,7 +36845,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2633,
@@ -36859,7 +36859,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2634,
@@ -36873,7 +36873,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2635,
@@ -36887,7 +36887,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2636,
@@ -36901,7 +36901,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2637,
@@ -36915,7 +36915,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2638,
@@ -36929,7 +36929,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2639,
@@ -36943,7 +36943,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2640,
@@ -36957,7 +36957,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 2641,
@@ -37120,7 +37120,7 @@
     "SUPERVISOR": "RODRIGO ALVES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 18,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -38800,7 +38800,7 @@
     "SUPERVISOR": "RODRIGO ALVES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 20,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -41741,7 +41741,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -41768,7 +41768,7 @@
     "SUPERVISOR": "KALYL MESSIAS",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 10,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -42580,8 +42580,8 @@
     "SUPERVISOR": "WILLIAN MARECO",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 4,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -43420,7 +43420,7 @@
     "SUPERVISOR": "WILLIAN MARECO",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 2,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -44111,7 +44111,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3152,
@@ -44125,7 +44125,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3153,
@@ -44139,7 +44139,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3154,
@@ -44153,7 +44153,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3155,
@@ -44167,7 +44167,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3156,
@@ -44181,7 +44181,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3157,
@@ -44195,7 +44195,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3158,
@@ -44209,7 +44209,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3159,
@@ -44223,7 +44223,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3160,
@@ -44237,7 +44237,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3161,
@@ -44251,7 +44251,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3162,
@@ -44261,11 +44261,11 @@
     "META": 66.66666666666667,
     "REGIONAL": "GO",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "PROPOSTAS": 3,
+    "PROP. FINLZD": 2,
+    "MENSALIDADES": 2320.42,
+    "TKT MÉD": 1160.21,
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3163,
@@ -44279,7 +44279,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3164,
@@ -44293,7 +44293,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3165,
@@ -44307,7 +44307,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3166,
@@ -44321,7 +44321,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3167,
@@ -44335,7 +44335,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3168,
@@ -44349,7 +44349,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3169,
@@ -44363,7 +44363,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3170,
@@ -44377,7 +44377,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3171,
@@ -44391,7 +44391,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3172,
@@ -44405,7 +44405,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3173,
@@ -44419,7 +44419,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3174,
@@ -44433,7 +44433,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3175,
@@ -44447,7 +44447,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3176,
@@ -44461,7 +44461,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3177,
@@ -44475,7 +44475,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3178,
@@ -44489,7 +44489,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3179,
@@ -44503,7 +44503,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3180,
@@ -44517,7 +44517,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3181,
@@ -44680,7 +44680,7 @@
     "SUPERVISOR": "HUDSON TADEU",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 13,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -45100,7 +45100,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 8,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -45520,7 +45520,7 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 19,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -45940,7 +45940,7 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 2,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -45954,7 +45954,7 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 27,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -46780,7 +46780,7 @@
     "SUPERVISOR": "RODRIGO GAONA",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 20,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -47471,7 +47471,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3392,
@@ -47485,7 +47485,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3393,
@@ -47499,7 +47499,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3394,
@@ -47513,7 +47513,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3395,
@@ -47527,7 +47527,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3396,
@@ -47541,7 +47541,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3397,
@@ -47555,7 +47555,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3398,
@@ -47569,7 +47569,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3399,
@@ -47583,7 +47583,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3400,
@@ -47593,11 +47593,11 @@
     "META": 66.66666666666667,
     "REGIONAL": "GO",
     "VISITAS": 5,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3401,
@@ -47607,11 +47607,11 @@
     "META": 66.66666666666667,
     "REGIONAL": "GO",
     "VISITAS": 6,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3402,
@@ -47625,7 +47625,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3403,
@@ -47639,7 +47639,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3404,
@@ -47653,7 +47653,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3405,
@@ -47667,7 +47667,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3406,
@@ -47681,7 +47681,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3407,
@@ -47695,7 +47695,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3408,
@@ -47709,7 +47709,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3409,
@@ -47723,7 +47723,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3410,
@@ -47737,7 +47737,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3411,
@@ -47751,7 +47751,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3412,
@@ -47765,7 +47765,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3413,
@@ -47779,7 +47779,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3414,
@@ -47793,7 +47793,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3415,
@@ -47807,7 +47807,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3416,
@@ -47821,7 +47821,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3417,
@@ -47835,7 +47835,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3418,
@@ -47849,7 +47849,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3419,
@@ -47863,7 +47863,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3420,
@@ -47877,7 +47877,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 3421,
@@ -48460,8 +48460,8 @@
     "SUPERVISOR": "MATHEUS EDUARDO",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 10,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -48880,8 +48880,8 @@
     "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 10,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -49721,10 +49721,10 @@
     "META": 66.66666666666667,
     "REGIONAL": "MT",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 289.77,
+    "TKT MÉD": 289.77,
     "STATUS": "ATIVO"
   },
   {
@@ -50994,7 +50994,7 @@
     "SUPERVISOR": "EMANCIELLE PAMELLA",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 25,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -51820,7 +51820,7 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -52969,7 +52969,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "MT",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -53080,7 +53080,7 @@
     "SUPERVISOR": "WILLIAN MARECO",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -53948,7 +53948,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 5,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -54760,7 +54760,7 @@
     "SUPERVISOR": "RODRIGO ALVES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 20,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -56440,7 +56440,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 2,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -56468,7 +56468,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 13,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -57700,8 +57700,8 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 23,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -58540,7 +58540,7 @@
     "SUPERVISOR": "FILIPE ARAUJO",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 8,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -58960,8 +58960,8 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 15,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -59380,7 +59380,7 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 6,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -60220,7 +60220,7 @@
     "SUPERVISOR": "EMANCIELLE PAMELLA",
     "META": 66.66666666666667,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 19,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -61060,7 +61060,7 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 8,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -62320,7 +62320,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 5,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -62591,7 +62591,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4472,
@@ -62605,7 +62605,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4473,
@@ -62619,7 +62619,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4474,
@@ -62633,7 +62633,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4475,
@@ -62647,7 +62647,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4476,
@@ -62661,7 +62661,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4477,
@@ -62675,7 +62675,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4478,
@@ -62689,7 +62689,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4479,
@@ -62703,7 +62703,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4480,
@@ -62717,7 +62717,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4481,
@@ -62731,7 +62731,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4482,
@@ -62745,7 +62745,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4483,
@@ -62759,7 +62759,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4484,
@@ -62773,7 +62773,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4485,
@@ -62787,7 +62787,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4486,
@@ -62801,7 +62801,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4487,
@@ -62815,7 +62815,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4488,
@@ -62829,7 +62829,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4489,
@@ -62843,7 +62843,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4490,
@@ -62857,7 +62857,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4491,
@@ -62871,7 +62871,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4492,
@@ -62885,7 +62885,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4493,
@@ -62899,7 +62899,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4494,
@@ -62913,7 +62913,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4495,
@@ -62927,7 +62927,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4496,
@@ -62941,7 +62941,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4497,
@@ -62955,7 +62955,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4498,
@@ -62969,7 +62969,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4499,
@@ -62983,7 +62983,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4500,
@@ -62997,7 +62997,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 4501,
@@ -63160,8 +63160,8 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 7,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -63580,8 +63580,8 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 13,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -63973,7 +63973,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
     "VISITAS": 24,
-    "PROPOSTAS": 1,
+    "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -64000,11 +64000,11 @@
     "SUPERVISOR": "RODRIGO ALVES",
     "META": 66.66666666666667,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 21,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 1573.25,
+    "TKT MÉD": 1573.25,
     "STATUS": "ATIVO"
   },
   {
@@ -64799,7 +64799,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
     "VISITAS": 11,
-    "PROPOSTAS": 3,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -64827,7 +64827,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
     "VISITAS": 17,
-    "PROPOSTAS": 2,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 1,
     "MENSALIDADES": 1468.7,
     "TKT MÉD": 1468.7,
@@ -64840,11 +64840,11 @@
     "SUPERVISOR": "RAFAELLA VERSAO",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 17,
+    "PROPOSTAS": 5,
+    "PROP. FINLZD": 3,
+    "MENSALIDADES": 934.11,
+    "TKT MÉD": 311.37,
     "STATUS": "ATIVO"
   },
   {
@@ -65680,8 +65680,8 @@
     "SUPERVISOR": "WELINGTON MAX",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 1,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -66913,7 +66913,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
     "VISITAS": 1,
-    "PROPOSTAS": 1,
+    "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -66940,8 +66940,8 @@
     "SUPERVISOR": "HUDSON TADEU",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 3,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -68200,8 +68200,8 @@
     "SUPERVISOR": "CYNTIA GUEDES",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 6,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -68620,8 +68620,8 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 5,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -71140,7 +71140,7 @@
     "SUPERVISOR": "MARLEY DAYANE",
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 13,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -72821,7 +72821,7 @@
     "META": 66.66666666666667,
     "REGIONAL": "MG1",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -73240,8 +73240,8 @@
     "SUPERVISOR": "TALITA LUANA",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 1,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -73660,7 +73660,7 @@
     "SUPERVISOR": "PEDRO EUSTAQUIO",
     "META": 66.66666666666667,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -74080,7 +74080,7 @@
     "SUPERVISOR": "CYNTIA GUEDES",
     "META": 66.66666666666667,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 15,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -75760,7 +75760,7 @@
     "SUPERVISOR": "RODRIGO GAONA",
     "META": 66.66666666666667,
     "REGIONAL": "SP2",
-    "VISITAS": 1,
+    "VISITAS": 19,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -76180,11 +76180,11 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 2,
+    "PROPOSTAS": 2,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 511.44,
+    "TKT MÉD": 511.44,
     "STATUS": "ATIVO"
   },
   {
@@ -76222,7 +76222,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -77021,7 +77021,7 @@
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 23,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -77062,7 +77062,7 @@
     "SUPERVISOR": "KALYL MESSIAS",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 25,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -77440,8 +77440,8 @@
     "SUPERVISOR": "FILIPE ARAUJO",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 18,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -78280,7 +78280,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 10,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -78701,7 +78701,7 @@
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 14,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 3,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -78742,7 +78742,7 @@
     "SUPERVISOR": "KALYL MESSIAS",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 8,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -79120,7 +79120,7 @@
     "SUPERVISOR": "JORGE ALBERTO",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 2,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -79540,7 +79540,7 @@
     "SUPERVISOR": "CYNTIA GUEDES",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 11,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -79960,8 +79960,8 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 19,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -80380,7 +80380,7 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 15,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -80394,7 +80394,7 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -82060,7 +82060,7 @@
     "SUPERVISOR": "PEDRO EUSTAQUIO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 6,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -82331,7 +82331,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5882,
@@ -82345,7 +82345,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5883,
@@ -82359,7 +82359,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5884,
@@ -82373,7 +82373,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5885,
@@ -82387,7 +82387,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5886,
@@ -82401,7 +82401,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5887,
@@ -82415,7 +82415,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5888,
@@ -82429,7 +82429,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5889,
@@ -82443,7 +82443,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5890,
@@ -82457,7 +82457,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5891,
@@ -82471,7 +82471,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5892,
@@ -82485,7 +82485,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5893,
@@ -82499,7 +82499,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5894,
@@ -82513,7 +82513,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5895,
@@ -82527,7 +82527,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5896,
@@ -82541,7 +82541,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5897,
@@ -82555,7 +82555,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5898,
@@ -82569,7 +82569,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5899,
@@ -82583,7 +82583,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5900,
@@ -82597,7 +82597,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5901,
@@ -82611,7 +82611,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5902,
@@ -82625,7 +82625,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5903,
@@ -82639,7 +82639,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5904,
@@ -82653,7 +82653,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5905,
@@ -82667,7 +82667,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5906,
@@ -82681,7 +82681,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5907,
@@ -82695,7 +82695,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5908,
@@ -82709,7 +82709,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5909,
@@ -82723,7 +82723,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5910,
@@ -82737,7 +82737,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 5911,
@@ -82900,7 +82900,7 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 18,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -83320,7 +83320,7 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 22,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -83629,7 +83629,7 @@
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
     "VISITAS": 1,
-    "PROPOSTAS": 1,
+    "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -83740,11 +83740,11 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 20,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 466.47,
+    "TKT MÉD": 466.47,
     "STATUS": "ATIVO"
   },
   {
@@ -84580,8 +84580,8 @@
     "SUPERVISOR": "PEDRO EUSTAQUIO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 4,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -85000,7 +85000,7 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 21,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -85840,8 +85840,8 @@
     "SUPERVISOR": "PEDRO EUSTAQUIO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 10,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -86943,7 +86943,7 @@
     "ID": 6211,
     "DATA": "01/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -86957,7 +86957,7 @@
     "ID": 6212,
     "DATA": "02/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -86971,7 +86971,7 @@
     "ID": 6213,
     "DATA": "03/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -86985,7 +86985,7 @@
     "ID": 6214,
     "DATA": "04/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -86999,7 +86999,7 @@
     "ID": 6215,
     "DATA": "05/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87013,7 +87013,7 @@
     "ID": 6216,
     "DATA": "06/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 1,
@@ -87027,7 +87027,7 @@
     "ID": 6217,
     "DATA": "07/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87041,7 +87041,7 @@
     "ID": 6218,
     "DATA": "08/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87055,7 +87055,7 @@
     "ID": 6219,
     "DATA": "09/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87069,7 +87069,7 @@
     "ID": 6220,
     "DATA": "10/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 2,
@@ -87083,7 +87083,7 @@
     "ID": 6221,
     "DATA": "11/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 8,
@@ -87097,10 +87097,10 @@
     "ID": 6222,
     "DATA": "12/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 6,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -87111,7 +87111,7 @@
     "ID": 6223,
     "DATA": "13/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87125,7 +87125,7 @@
     "ID": 6224,
     "DATA": "14/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87139,7 +87139,7 @@
     "ID": 6225,
     "DATA": "15/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87153,7 +87153,7 @@
     "ID": 6226,
     "DATA": "16/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87167,7 +87167,7 @@
     "ID": 6227,
     "DATA": "17/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87181,7 +87181,7 @@
     "ID": 6228,
     "DATA": "18/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87195,7 +87195,7 @@
     "ID": 6229,
     "DATA": "19/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87209,7 +87209,7 @@
     "ID": 6230,
     "DATA": "20/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87223,7 +87223,7 @@
     "ID": 6231,
     "DATA": "21/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87237,7 +87237,7 @@
     "ID": 6232,
     "DATA": "22/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87251,7 +87251,7 @@
     "ID": 6233,
     "DATA": "23/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87265,7 +87265,7 @@
     "ID": 6234,
     "DATA": "24/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87279,7 +87279,7 @@
     "ID": 6235,
     "DATA": "25/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87293,7 +87293,7 @@
     "ID": 6236,
     "DATA": "26/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87307,7 +87307,7 @@
     "ID": 6237,
     "DATA": "27/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87321,7 +87321,7 @@
     "ID": 6238,
     "DATA": "28/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87335,7 +87335,7 @@
     "ID": 6239,
     "DATA": "29/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87349,7 +87349,7 @@
     "ID": 6240,
     "DATA": "30/09/2025",
     "CONSULTOR": "MARILIA NATHALIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -87507,7 +87507,7 @@
     "META": 33.333333333333336,
     "REGIONAL": "MT",
     "VISITAS": 5,
-    "PROPOSTAS": 2,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -87520,11 +87520,11 @@
     "SUPERVISOR": "WILLIAN MARECO",
     "META": 33.333333333333336,
     "REGIONAL": "MT",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 5,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 348.3,
+    "TKT MÉD": 348.3,
     "STATUS": "ATIVO"
   },
   {
@@ -87940,7 +87940,7 @@
     "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 21,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -89200,7 +89200,7 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 33,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -89620,8 +89620,8 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 2,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -90040,8 +90040,8 @@
     "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 4,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -90460,7 +90460,7 @@
     "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 17,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -91300,7 +91300,7 @@
     "SUPERVISOR": "EMANCIELLE PAMELLA",
     "META": 33.333333333333336,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 20,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -92560,8 +92560,8 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 18,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -92831,7 +92831,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6632,
@@ -92845,7 +92845,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6633,
@@ -92859,7 +92859,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6634,
@@ -92873,7 +92873,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6635,
@@ -92887,7 +92887,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6636,
@@ -92901,7 +92901,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6637,
@@ -92915,7 +92915,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6638,
@@ -92929,7 +92929,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6639,
@@ -92943,7 +92943,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6640,
@@ -92957,7 +92957,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6641,
@@ -92971,7 +92971,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6642,
@@ -92985,7 +92985,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6643,
@@ -92999,7 +92999,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6644,
@@ -93013,7 +93013,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6645,
@@ -93027,7 +93027,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6646,
@@ -93041,7 +93041,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6647,
@@ -93055,7 +93055,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6648,
@@ -93069,7 +93069,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6649,
@@ -93083,7 +93083,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6650,
@@ -93097,7 +93097,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6651,
@@ -93111,7 +93111,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6652,
@@ -93125,7 +93125,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6653,
@@ -93139,7 +93139,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6654,
@@ -93153,7 +93153,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6655,
@@ -93167,7 +93167,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6656,
@@ -93181,7 +93181,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6657,
@@ -93195,7 +93195,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6658,
@@ -93209,7 +93209,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6659,
@@ -93223,7 +93223,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6660,
@@ -93237,7 +93237,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6661,
@@ -93820,7 +93820,7 @@
     "SUPERVISOR": "HUDSON TADEU",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 8,
+    "VISITAS": 11,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -93848,7 +93848,7 @@
     "SUPERVISOR": "HUDSON TADEU",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 9,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -94660,7 +94660,7 @@
     "SUPERVISOR": "HUDSON TADEU",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 17,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -94923,7 +94923,7 @@
     "ID": 6781,
     "DATA": "01/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -94937,7 +94937,7 @@
     "ID": 6782,
     "DATA": "02/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -94951,7 +94951,7 @@
     "ID": 6783,
     "DATA": "03/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -94965,7 +94965,7 @@
     "ID": 6784,
     "DATA": "04/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -94979,7 +94979,7 @@
     "ID": 6785,
     "DATA": "05/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -94993,7 +94993,7 @@
     "ID": 6786,
     "DATA": "06/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95007,7 +95007,7 @@
     "ID": 6787,
     "DATA": "07/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95021,7 +95021,7 @@
     "ID": 6788,
     "DATA": "08/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95035,7 +95035,7 @@
     "ID": 6789,
     "DATA": "09/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95049,7 +95049,7 @@
     "ID": 6790,
     "DATA": "10/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95063,7 +95063,7 @@
     "ID": 6791,
     "DATA": "11/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95077,11 +95077,11 @@
     "ID": 6792,
     "DATA": "12/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 3,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -95091,7 +95091,7 @@
     "ID": 6793,
     "DATA": "13/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95105,7 +95105,7 @@
     "ID": 6794,
     "DATA": "14/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95119,7 +95119,7 @@
     "ID": 6795,
     "DATA": "15/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95133,7 +95133,7 @@
     "ID": 6796,
     "DATA": "16/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95147,7 +95147,7 @@
     "ID": 6797,
     "DATA": "17/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95161,7 +95161,7 @@
     "ID": 6798,
     "DATA": "18/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95175,7 +95175,7 @@
     "ID": 6799,
     "DATA": "19/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95189,7 +95189,7 @@
     "ID": 6800,
     "DATA": "20/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95203,7 +95203,7 @@
     "ID": 6801,
     "DATA": "21/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95217,7 +95217,7 @@
     "ID": 6802,
     "DATA": "22/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95231,7 +95231,7 @@
     "ID": 6803,
     "DATA": "23/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95245,7 +95245,7 @@
     "ID": 6804,
     "DATA": "24/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95259,7 +95259,7 @@
     "ID": 6805,
     "DATA": "25/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95273,7 +95273,7 @@
     "ID": 6806,
     "DATA": "26/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95287,7 +95287,7 @@
     "ID": 6807,
     "DATA": "27/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95301,7 +95301,7 @@
     "ID": 6808,
     "DATA": "28/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95315,7 +95315,7 @@
     "ID": 6809,
     "DATA": "29/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95329,7 +95329,7 @@
     "ID": 6810,
     "DATA": "30/09/2025",
     "CONSULTOR": "KEYZZY DE",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -95500,7 +95500,7 @@
     "SUPERVISOR": "JORGE ALBERTO",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 22,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -95920,8 +95920,8 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 7,
+    "PROPOSTAS": 4,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -96183,7 +96183,7 @@
     "ID": 6871,
     "DATA": "01/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96197,7 +96197,7 @@
     "ID": 6872,
     "DATA": "02/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96211,7 +96211,7 @@
     "ID": 6873,
     "DATA": "03/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96225,7 +96225,7 @@
     "ID": 6874,
     "DATA": "04/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96239,7 +96239,7 @@
     "ID": 6875,
     "DATA": "05/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96253,7 +96253,7 @@
     "ID": 6876,
     "DATA": "06/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96267,7 +96267,7 @@
     "ID": 6877,
     "DATA": "07/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96281,7 +96281,7 @@
     "ID": 6878,
     "DATA": "08/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96295,7 +96295,7 @@
     "ID": 6879,
     "DATA": "09/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96309,7 +96309,7 @@
     "ID": 6880,
     "DATA": "10/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 1,
@@ -96323,7 +96323,7 @@
     "ID": 6881,
     "DATA": "11/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 7,
@@ -96337,10 +96337,10 @@
     "ID": 6882,
     "DATA": "12/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 4,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -96351,7 +96351,7 @@
     "ID": 6883,
     "DATA": "13/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96365,7 +96365,7 @@
     "ID": 6884,
     "DATA": "14/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96379,7 +96379,7 @@
     "ID": 6885,
     "DATA": "15/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96393,7 +96393,7 @@
     "ID": 6886,
     "DATA": "16/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96407,7 +96407,7 @@
     "ID": 6887,
     "DATA": "17/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96421,7 +96421,7 @@
     "ID": 6888,
     "DATA": "18/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96435,7 +96435,7 @@
     "ID": 6889,
     "DATA": "19/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96449,7 +96449,7 @@
     "ID": 6890,
     "DATA": "20/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96463,7 +96463,7 @@
     "ID": 6891,
     "DATA": "21/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96477,7 +96477,7 @@
     "ID": 6892,
     "DATA": "22/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96491,7 +96491,7 @@
     "ID": 6893,
     "DATA": "23/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96505,7 +96505,7 @@
     "ID": 6894,
     "DATA": "24/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96519,7 +96519,7 @@
     "ID": 6895,
     "DATA": "25/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96533,7 +96533,7 @@
     "ID": 6896,
     "DATA": "26/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96547,7 +96547,7 @@
     "ID": 6897,
     "DATA": "27/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96561,7 +96561,7 @@
     "ID": 6898,
     "DATA": "28/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96575,7 +96575,7 @@
     "ID": 6899,
     "DATA": "29/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96589,7 +96589,7 @@
     "ID": 6900,
     "DATA": "30/09/2025",
     "CONSULTOR": "RAFAELLA CRISTINA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -96611,7 +96611,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6902,
@@ -96625,7 +96625,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6903,
@@ -96639,7 +96639,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6904,
@@ -96653,7 +96653,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6905,
@@ -96667,7 +96667,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6906,
@@ -96681,7 +96681,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6907,
@@ -96695,7 +96695,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6908,
@@ -96709,7 +96709,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6909,
@@ -96723,7 +96723,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6910,
@@ -96737,7 +96737,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6911,
@@ -96751,7 +96751,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6912,
@@ -96765,7 +96765,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6913,
@@ -96779,7 +96779,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6914,
@@ -96793,7 +96793,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6915,
@@ -96807,7 +96807,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6916,
@@ -96821,7 +96821,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6917,
@@ -96835,7 +96835,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6918,
@@ -96849,7 +96849,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6919,
@@ -96863,7 +96863,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6920,
@@ -96877,7 +96877,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6921,
@@ -96891,7 +96891,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6922,
@@ -96905,7 +96905,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6923,
@@ -96919,7 +96919,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6924,
@@ -96933,7 +96933,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6925,
@@ -96947,7 +96947,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6926,
@@ -96961,7 +96961,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6927,
@@ -96975,7 +96975,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6928,
@@ -96989,7 +96989,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6929,
@@ -97003,7 +97003,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6930,
@@ -97017,7 +97017,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6931,
@@ -97031,7 +97031,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6932,
@@ -97045,7 +97045,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6933,
@@ -97059,7 +97059,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6934,
@@ -97073,7 +97073,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6935,
@@ -97087,7 +97087,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6936,
@@ -97101,7 +97101,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6937,
@@ -97115,7 +97115,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6938,
@@ -97129,7 +97129,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6939,
@@ -97143,7 +97143,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6940,
@@ -97157,7 +97157,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6941,
@@ -97171,7 +97171,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6942,
@@ -97185,7 +97185,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6943,
@@ -97199,7 +97199,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6944,
@@ -97213,7 +97213,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6945,
@@ -97227,7 +97227,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6946,
@@ -97241,7 +97241,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6947,
@@ -97255,7 +97255,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6948,
@@ -97269,7 +97269,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6949,
@@ -97283,7 +97283,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6950,
@@ -97297,7 +97297,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6951,
@@ -97311,7 +97311,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6952,
@@ -97325,7 +97325,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6953,
@@ -97339,7 +97339,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6954,
@@ -97353,7 +97353,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6955,
@@ -97367,7 +97367,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6956,
@@ -97381,7 +97381,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6957,
@@ -97395,7 +97395,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6958,
@@ -97409,7 +97409,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6959,
@@ -97423,7 +97423,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6960,
@@ -97437,7 +97437,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 6961,
@@ -97600,7 +97600,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 39,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -98020,7 +98020,7 @@
     "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 5,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -98440,8 +98440,8 @@
     "SUPERVISOR": "JORGE ALBERTO",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 24,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -98860,7 +98860,7 @@
     "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -99280,7 +99280,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 4,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -99308,7 +99308,7 @@
     "SUPERVISOR": "CLEBER BUCIOLI",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -100540,7 +100540,7 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 3,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -100960,7 +100960,7 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 13,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -101380,7 +101380,7 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 12,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -101800,7 +101800,7 @@
     "SUPERVISOR": "WILLIAN MARECO",
     "META": 33.333333333333336,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 7,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -102220,8 +102220,8 @@
     "SUPERVISOR": "JOAO VICTOR",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 25,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -102640,7 +102640,7 @@
     "SUPERVISOR": "OPEN MG",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 7,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -102911,7 +102911,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7352,
@@ -102925,7 +102925,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7353,
@@ -102939,7 +102939,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7354,
@@ -102953,7 +102953,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7355,
@@ -102967,7 +102967,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7356,
@@ -102981,7 +102981,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7357,
@@ -102995,7 +102995,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7358,
@@ -103009,7 +103009,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7359,
@@ -103023,7 +103023,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7360,
@@ -103037,7 +103037,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7361,
@@ -103051,7 +103051,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7362,
@@ -103065,7 +103065,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7363,
@@ -103079,7 +103079,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7364,
@@ -103093,7 +103093,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7365,
@@ -103107,7 +103107,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7366,
@@ -103121,7 +103121,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7367,
@@ -103135,7 +103135,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7368,
@@ -103149,7 +103149,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7369,
@@ -103163,7 +103163,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7370,
@@ -103177,7 +103177,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7371,
@@ -103191,7 +103191,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7372,
@@ -103205,7 +103205,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7373,
@@ -103219,7 +103219,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7374,
@@ -103233,7 +103233,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7375,
@@ -103247,7 +103247,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7376,
@@ -103261,7 +103261,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7377,
@@ -103275,7 +103275,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7378,
@@ -103289,7 +103289,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7379,
@@ -103303,7 +103303,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7380,
@@ -103317,7 +103317,7 @@
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
-    "STATUS": "ATIVO"
+    "STATUS": "DESLIG"
   },
   {
     "ID": 7381,
@@ -103480,8 +103480,8 @@
     "SUPERVISOR": "VINICIUS BORGES",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 1,
+    "PROPOSTAS": 2,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -104740,7 +104740,7 @@
     "SUPERVISOR": "RAFAELLA VERSAO",
     "META": 33.333333333333336,
     "REGIONAL": "MG1",
-    "VISITAS": 0,
+    "VISITAS": 19,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -105160,8 +105160,8 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "VISITAS": 27,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -106420,7 +106420,7 @@
     "SUPERVISOR": "WELINGTON MAX",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -107680,11 +107680,11 @@
     "SUPERVISOR": "EMANCIELLE PAMELLA",
     "META": 33.333333333333336,
     "REGIONAL": "MT",
-    "VISITAS": 0,
-    "PROPOSTAS": 0,
-    "PROP. FINLZD": 0,
-    "MENSALIDADES": 0,
-    "TKT MÉD": 0,
+    "VISITAS": 20,
+    "PROPOSTAS": 1,
+    "PROP. FINLZD": 1,
+    "MENSALIDADES": 423.57,
+    "TKT MÉD": 423.57,
     "STATUS": "ATIVO"
   },
   {
@@ -108100,7 +108100,7 @@
     "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
-    "VISITAS": 0,
+    "VISITAS": 1,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -108783,7 +108783,7 @@
     "ID": 7771,
     "DATA": "01/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108797,7 +108797,7 @@
     "ID": 7772,
     "DATA": "02/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108811,7 +108811,7 @@
     "ID": 7773,
     "DATA": "03/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108825,7 +108825,7 @@
     "ID": 7774,
     "DATA": "04/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108839,7 +108839,7 @@
     "ID": 7775,
     "DATA": "05/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108853,7 +108853,7 @@
     "ID": 7776,
     "DATA": "06/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108867,7 +108867,7 @@
     "ID": 7777,
     "DATA": "07/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108881,7 +108881,7 @@
     "ID": 7778,
     "DATA": "08/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108895,7 +108895,7 @@
     "ID": 7779,
     "DATA": "09/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108909,7 +108909,7 @@
     "ID": 7780,
     "DATA": "10/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108923,7 +108923,7 @@
     "ID": 7781,
     "DATA": "11/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108937,7 +108937,7 @@
     "ID": 7782,
     "DATA": "12/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108951,7 +108951,7 @@
     "ID": 7783,
     "DATA": "13/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108965,7 +108965,7 @@
     "ID": 7784,
     "DATA": "14/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108979,7 +108979,7 @@
     "ID": 7785,
     "DATA": "15/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -108993,7 +108993,7 @@
     "ID": 7786,
     "DATA": "16/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109007,7 +109007,7 @@
     "ID": 7787,
     "DATA": "17/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109021,7 +109021,7 @@
     "ID": 7788,
     "DATA": "18/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109035,7 +109035,7 @@
     "ID": 7789,
     "DATA": "19/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109049,7 +109049,7 @@
     "ID": 7790,
     "DATA": "20/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109063,7 +109063,7 @@
     "ID": 7791,
     "DATA": "21/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109077,7 +109077,7 @@
     "ID": 7792,
     "DATA": "22/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109091,7 +109091,7 @@
     "ID": 7793,
     "DATA": "23/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109105,7 +109105,7 @@
     "ID": 7794,
     "DATA": "24/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109119,7 +109119,7 @@
     "ID": 7795,
     "DATA": "25/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109133,7 +109133,7 @@
     "ID": 7796,
     "DATA": "26/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109147,7 +109147,7 @@
     "ID": 7797,
     "DATA": "27/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109161,7 +109161,7 @@
     "ID": 7798,
     "DATA": "28/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109175,7 +109175,7 @@
     "ID": 7799,
     "DATA": "29/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109189,7 +109189,7 @@
     "ID": 7800,
     "DATA": "30/09/2025",
     "CONSULTOR": "BEATRIZ MARIA",
-    "SUPERVISOR": "CLEBER BUCIOLI",
+    "SUPERVISOR": "TALITA LUANA",
     "META": 33.333333333333336,
     "REGIONAL": "SP2",
     "VISITAS": 0,
@@ -109780,7 +109780,7 @@
     "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 22,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -110620,7 +110620,7 @@
     "SUPERVISOR": "DANIEL AUGUSTO",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 14,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -111041,7 +111041,7 @@
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -111447,7 +111447,7 @@
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
     "VISITAS": 0,
-    "PROPOSTAS": 0,
+    "PROPOSTAS": 1,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
     "TKT MÉD": 0,
@@ -111460,7 +111460,7 @@
     "SUPERVISOR": "WELINGTON MAX",
     "META": 33.333333333333336,
     "REGIONAL": "MG2",
-    "VISITAS": 0,
+    "VISITAS": 2,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -111880,7 +111880,7 @@
     "SUPERVISOR": "EMANCIELLE PAMELLA",
     "META": 33.333333333333336,
     "REGIONAL": "MT",
-    "VISITAS": 0,
+    "VISITAS": 22,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -113140,7 +113140,7 @@
     "SUPERVISOR": "RODRIGO ALVES",
     "META": 33.333333333333336,
     "REGIONAL": "SP1",
-    "VISITAS": 0,
+    "VISITAS": 2,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -117602,10 +117602,10 @@
   {
     "ID": 8401,
     "DATA": "01/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117616,10 +117616,10 @@
   {
     "ID": 8402,
     "DATA": "02/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117630,10 +117630,10 @@
   {
     "ID": 8403,
     "DATA": "03/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117644,10 +117644,10 @@
   {
     "ID": 8404,
     "DATA": "04/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117658,10 +117658,10 @@
   {
     "ID": 8405,
     "DATA": "05/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117672,10 +117672,10 @@
   {
     "ID": 8406,
     "DATA": "06/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117686,10 +117686,10 @@
   {
     "ID": 8407,
     "DATA": "07/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117700,10 +117700,10 @@
   {
     "ID": 8408,
     "DATA": "08/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117714,10 +117714,10 @@
   {
     "ID": 8409,
     "DATA": "09/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117728,10 +117728,10 @@
   {
     "ID": 8410,
     "DATA": "10/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117742,11 +117742,11 @@
   {
     "ID": 8411,
     "DATA": "11/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
-    "VISITAS": 19,
+    "REGIONAL": "GO",
+    "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
     "MENSALIDADES": 0,
@@ -117756,10 +117756,10 @@
   {
     "ID": 8412,
     "DATA": "12/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117770,10 +117770,10 @@
   {
     "ID": 8413,
     "DATA": "13/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117784,10 +117784,10 @@
   {
     "ID": 8414,
     "DATA": "14/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117798,10 +117798,10 @@
   {
     "ID": 8415,
     "DATA": "15/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117812,10 +117812,10 @@
   {
     "ID": 8416,
     "DATA": "16/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117826,10 +117826,10 @@
   {
     "ID": 8417,
     "DATA": "17/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117840,10 +117840,10 @@
   {
     "ID": 8418,
     "DATA": "18/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117854,10 +117854,10 @@
   {
     "ID": 8419,
     "DATA": "19/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117868,10 +117868,10 @@
   {
     "ID": 8420,
     "DATA": "20/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117882,10 +117882,10 @@
   {
     "ID": 8421,
     "DATA": "21/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117896,10 +117896,10 @@
   {
     "ID": 8422,
     "DATA": "22/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117910,10 +117910,10 @@
   {
     "ID": 8423,
     "DATA": "23/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117924,10 +117924,10 @@
   {
     "ID": 8424,
     "DATA": "24/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117938,10 +117938,10 @@
   {
     "ID": 8425,
     "DATA": "25/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117952,10 +117952,10 @@
   {
     "ID": 8426,
     "DATA": "26/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117966,10 +117966,10 @@
   {
     "ID": 8427,
     "DATA": "27/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117980,10 +117980,10 @@
   {
     "ID": 8428,
     "DATA": "28/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -117994,10 +117994,10 @@
   {
     "ID": 8429,
     "DATA": "29/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118008,10 +118008,10 @@
   {
     "ID": 8430,
     "DATA": "30/09/2025",
-    "CONSULTOR": "PRISCILA CARDOSO",
-    "SUPERVISOR": "MARCELO OLIVEIRA",
+    "CONSULTOR": "SARAH DE",
+    "SUPERVISOR": "RENATA SALGADO",
     "META": 33.333333333333336,
-    "REGIONAL": "SP1",
+    "REGIONAL": "GO",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118022,8 +118022,8 @@
   {
     "ID": 8431,
     "DATA": "01/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118036,8 +118036,8 @@
   {
     "ID": 8432,
     "DATA": "02/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118050,8 +118050,8 @@
   {
     "ID": 8433,
     "DATA": "03/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118064,8 +118064,8 @@
   {
     "ID": 8434,
     "DATA": "04/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118078,8 +118078,8 @@
   {
     "ID": 8435,
     "DATA": "05/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118092,8 +118092,8 @@
   {
     "ID": 8436,
     "DATA": "06/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118106,8 +118106,8 @@
   {
     "ID": 8437,
     "DATA": "07/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118120,8 +118120,8 @@
   {
     "ID": 8438,
     "DATA": "08/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118134,8 +118134,8 @@
   {
     "ID": 8439,
     "DATA": "09/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118148,8 +118148,8 @@
   {
     "ID": 8440,
     "DATA": "10/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118162,8 +118162,8 @@
   {
     "ID": 8441,
     "DATA": "11/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118176,8 +118176,8 @@
   {
     "ID": 8442,
     "DATA": "12/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118190,8 +118190,8 @@
   {
     "ID": 8443,
     "DATA": "13/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118204,8 +118204,8 @@
   {
     "ID": 8444,
     "DATA": "14/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118218,8 +118218,8 @@
   {
     "ID": 8445,
     "DATA": "15/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118232,8 +118232,8 @@
   {
     "ID": 8446,
     "DATA": "16/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118246,8 +118246,8 @@
   {
     "ID": 8447,
     "DATA": "17/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118260,8 +118260,8 @@
   {
     "ID": 8448,
     "DATA": "18/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118274,8 +118274,8 @@
   {
     "ID": 8449,
     "DATA": "19/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118288,8 +118288,8 @@
   {
     "ID": 8450,
     "DATA": "20/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118302,8 +118302,8 @@
   {
     "ID": 8451,
     "DATA": "21/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118316,8 +118316,8 @@
   {
     "ID": 8452,
     "DATA": "22/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118330,8 +118330,8 @@
   {
     "ID": 8453,
     "DATA": "23/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118344,8 +118344,8 @@
   {
     "ID": 8454,
     "DATA": "24/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118358,8 +118358,8 @@
   {
     "ID": 8455,
     "DATA": "25/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118372,8 +118372,8 @@
   {
     "ID": 8456,
     "DATA": "26/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118386,8 +118386,8 @@
   {
     "ID": 8457,
     "DATA": "27/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118400,8 +118400,8 @@
   {
     "ID": 8458,
     "DATA": "28/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118414,8 +118414,8 @@
   {
     "ID": 8459,
     "DATA": "29/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118428,8 +118428,8 @@
   {
     "ID": 8460,
     "DATA": "30/09/2025",
-    "CONSULTOR": "SARAH DE",
-    "SUPERVISOR": "RENATA SALGADO",
+    "CONSULTOR": "SIMONE SILVERIO",
+    "SUPERVISOR": "PAULO RICARDO",
     "META": 33.333333333333336,
     "REGIONAL": "GO",
     "VISITAS": 0,
@@ -118442,10 +118442,10 @@
   {
     "ID": 8461,
     "DATA": "01/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118456,10 +118456,10 @@
   {
     "ID": 8462,
     "DATA": "02/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118470,10 +118470,10 @@
   {
     "ID": 8463,
     "DATA": "03/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118484,10 +118484,10 @@
   {
     "ID": 8464,
     "DATA": "04/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118498,10 +118498,10 @@
   {
     "ID": 8465,
     "DATA": "05/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118512,10 +118512,10 @@
   {
     "ID": 8466,
     "DATA": "06/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118526,10 +118526,10 @@
   {
     "ID": 8467,
     "DATA": "07/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118540,10 +118540,10 @@
   {
     "ID": 8468,
     "DATA": "08/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118554,10 +118554,10 @@
   {
     "ID": 8469,
     "DATA": "09/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118568,10 +118568,10 @@
   {
     "ID": 8470,
     "DATA": "10/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118582,10 +118582,10 @@
   {
     "ID": 8471,
     "DATA": "11/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118596,10 +118596,10 @@
   {
     "ID": 8472,
     "DATA": "12/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118610,10 +118610,10 @@
   {
     "ID": 8473,
     "DATA": "13/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118624,10 +118624,10 @@
   {
     "ID": 8474,
     "DATA": "14/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118638,10 +118638,10 @@
   {
     "ID": 8475,
     "DATA": "15/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118652,10 +118652,10 @@
   {
     "ID": 8476,
     "DATA": "16/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118666,10 +118666,10 @@
   {
     "ID": 8477,
     "DATA": "17/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118680,10 +118680,10 @@
   {
     "ID": 8478,
     "DATA": "18/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118694,10 +118694,10 @@
   {
     "ID": 8479,
     "DATA": "19/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118708,10 +118708,10 @@
   {
     "ID": 8480,
     "DATA": "20/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118722,10 +118722,10 @@
   {
     "ID": 8481,
     "DATA": "21/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118736,10 +118736,10 @@
   {
     "ID": 8482,
     "DATA": "22/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118750,10 +118750,10 @@
   {
     "ID": 8483,
     "DATA": "23/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118764,10 +118764,10 @@
   {
     "ID": 8484,
     "DATA": "24/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118778,10 +118778,10 @@
   {
     "ID": 8485,
     "DATA": "25/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118792,10 +118792,10 @@
   {
     "ID": 8486,
     "DATA": "26/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118806,10 +118806,10 @@
   {
     "ID": 8487,
     "DATA": "27/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118820,10 +118820,10 @@
   {
     "ID": 8488,
     "DATA": "28/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118834,10 +118834,10 @@
   {
     "ID": 8489,
     "DATA": "29/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
@@ -118848,10 +118848,10 @@
   {
     "ID": 8490,
     "DATA": "30/09/2025",
-    "CONSULTOR": "SIMONE SILVERIO",
-    "SUPERVISOR": "PAULO RICARDO",
+    "CONSULTOR": "PRISCILA CARDOSO",
+    "SUPERVISOR": "MARCELO OLIVEIRA",
     "META": 33.333333333333336,
-    "REGIONAL": "GO",
+    "REGIONAL": "SP1",
     "VISITAS": 0,
     "PROPOSTAS": 0,
     "PROP. FINLZD": 0,
