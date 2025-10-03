@@ -56,8 +56,12 @@
       <h2 class="text-xl font-semibold mb-4 text-gray-800">Filtros</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div class="flex flex-col">
-          <label for="date-filter" class="font-medium text-gray-700 block mb-1">Data</label>
-          <input type="date" id="date-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+          <label for="start-date" class="font-medium text-gray-700 block mb-1">Data Inicial</label>
+          <input type="date" id="start-date" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+        </div>
+        <div class="flex flex-col">
+          <label for="end-date" class="font-medium text-gray-700 block mb-1">Data Final</label>
+          <input type="date" id="end-date" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
         </div>
         <div class="flex flex-col">
           <label for="supervisor-filter" class="font-medium text-gray-700 block mb-1">Supervisor</label>
@@ -71,7 +75,7 @@
           <label for="consultant-filter" class="font-medium text-gray-700 block mb-1">Consultor</label>
           <input type="text" id="consultant-filter" placeholder="Nome do Consultor" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
         </div>
-        <div class="flex flex-col mt-4">
+        <div class="flex flex-col">
           <label for="status-filter" class="font-medium text-gray-700 block mb-1">Status</label>
           <select id="status-filter" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
             <option value="Todos">Todos</option>
@@ -95,16 +99,17 @@
 
   <script>
     const cardsContainer = document.getElementById("cards-container");
-    const generalSummaryCardsContainer = document.getElementById("general-summary-cards"); // Novo contêiner
+    const generalSummaryCardsContainer = document.getElementById("general-summary-cards");
     const supervisorFilter = document.getElementById("supervisor-filter");
     const regionalFilter = document.getElementById("regional-filter");
-    const dateFilter = document.getElementById("date-filter");
+    const startDateFilter = document.getElementById("start-date");
+    const endDateFilter = document.getElementById("end-date");
     const consultantFilter = document.getElementById("consultant-filter");
     const statusFilter = document.getElementById("status-filter");
     const lastUpdated = document.getElementById("last-updated");
 
-    let allConsultantData = []; // Armazena todos os dados brutos
-    let processedData = []; // Armazena dados com a data convertida
+    let allConsultantData = [];
+    let processedData = [];
     let uniqueDates = [];
     let uniqueSupervisors = [];
     let uniqueRegionals = [];
@@ -125,7 +130,6 @@
       return `${year}-${month}-${day}`;
     }
 
-    // Função para agrupar dados por supervisor e acumular valores por consultor
     function groupDataBySupervisor(data) {
       const grouped = {};
       data.forEach(item => {
@@ -161,24 +165,20 @@
         consData.META += Number(item.META || 0);
       });
 
-const supervisorsArray = Object.values(grouped).map(sup => {
-  sup.consultores = Object.values(sup.consultores)
-    .sort((a, b) => {
-      // Primeiro, ordena por STATUS: ATIVO vem antes de INATIVO
-      if (a.STATUS !== b.STATUS) {
-        return a.STATUS === "ATIVO" ? -1 : 1;
-      }
-
-      // Se o STATUS for igual, ordena por MENSALIDADES decrescente
-      return b.MENSALIDADES - a.MENSALIDADES;
-    });
-  return sup;
-});
+      const supervisorsArray = Object.values(grouped).map(sup => {
+        sup.consultores = Object.values(sup.consultores)
+          .sort((a, b) => {
+            if (a.STATUS !== b.STATUS) {
+              return a.STATUS === "ATIVO" ? -1 : 1;
+            }
+            return b.MENSALIDADES - a.MENSALIDADES;
+          });
+        return sup;
+      });
 
       return supervisorsArray;
     }
 
-    // NOVA FUNÇÃO: Renderizar os cards de resumo geral
     function renderGeneralSummaryCards(data) {
       generalSummaryCardsContainer.innerHTML = "";
 
@@ -195,7 +195,6 @@ const supervisorsArray = Object.values(grouped).map(sup => {
 
       const icmGeral = totalMensalidadesGeral > 0 && totalMetaGeral > 0 ? ((totalMensalidadesGeral / totalMetaGeral) * 100).toFixed(1) : "0.0";
 
-      // Dados para os cards gerais
       const summaryMetrics = [{
           title: "Meta Total",
           value: totalMetaGeral.toLocaleString("pt-BR", {
@@ -238,15 +237,13 @@ const supervisorsArray = Object.values(grouped).map(sup => {
         const card = document.createElement("div");
         card.className = "card p-4 flex flex-col justify-center items-center text-center";
         card.innerHTML = `
-                    <p class="text-sm font-medium text-gray-600 mb-1">${metric.title}</p>
-                    <p class="text-2xl font-bold ${metric.color}">${metric.value}</p>
-                `;
+          <p class="text-sm font-medium text-gray-600 mb-1">${metric.title}</p>
+          <p class="text-2xl font-bold ${metric.color}">${metric.value}</p>
+        `;
         generalSummaryCardsContainer.appendChild(card);
       });
     }
 
-
-    // Função para criar o card de um supervisor
     function createSupervisorCard(supervisor) {
       const totalVisitas = supervisor.consultores.reduce((s, c) => s + c.VISITAS, 0);
       const totalPropostas = supervisor.consultores.reduce((s, c) => s + c.PROPOSTAS, 0);
@@ -265,74 +262,73 @@ const supervisorsArray = Object.values(grouped).map(sup => {
       card.className = "card w-full max-w-[800px]";
 
       card.innerHTML = `
-                <div class="flex items-center gap-4 mb-4">
-                    <div class="w-16 h-16 min-w-[4rem] rounded-full flex items-center justify-center text-white text-2xl font-bold" style="background: #5a4ac7;">
-                        ${supervisor.supervisor ? supervisor.supervisor.charAt(0).toUpperCase() : 'S'}
-                    </div>
-                    <div class="flex-grow">
-                        <h3 class="text-xl font-semibold text-gray-800">${supervisor.supervisor}</h3>
-                        <p class="text-gray-500 text-sm">${supervisor.regional}</p>
-                    </div>
-                </div>
+        <div class="flex items-center gap-4 mb-4">
+          <div class="w-16 h-16 min-w-[4rem] rounded-full flex items-center justify-center text-white text-2xl font-bold" style="background: #5a4ac7;">
+            ${supervisor.supervisor ? supervisor.supervisor.charAt(0).toUpperCase() : 'S'}
+          </div>
+          <div class="flex-grow">
+            <h3 class="text-xl font-semibold text-gray-800">${supervisor.supervisor}</h3>
+            <p class="text-gray-500 text-sm">${supervisor.regional}</p>
+          </div>
+        </div>
 
-                <div class="grid grid-cols-2 md:grid-cols-5 text-center text-sm font-medium text-gray-600 border-b pb-2 mb-3 gap-x-2 gap-y-2">
-                    <div>META MENS</div>
-                    <div>REAL ATUAL</div>
-                    <div>%ICM</div>
-                    <div>MENS./FTE</div>
-                    <div>%ZERADOS</div>
-                </div>
+        <div class="grid grid-cols-2 md:grid-cols-5 text-center text-sm font-medium text-gray-600 border-b pb-2 mb-3 gap-x-2 gap-y-2">
+          <div>META MENS</div>
+          <div>REAL ATUAL</div>
+          <div>%ICM</div>
+          <div>MENS./FTE</div>
+          <div>%ZERADOS</div>
+        </div>
 
-                <div class="grid grid-cols-2 md:grid-cols-5 text-center text-base mb-4 gap-x-2 gap-y-2">
-                    <div class="font-bold text-green-700">${totalMetaMensal.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
-                    <div class="font-bold text-blue-700">${totalMensalidades.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
-                    <div>${icm}%</div>
-                    <div>${Number(mensalidadesPorFTE).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
-                    <div>${percentZerados}%</div>
-                </div>
+        <div class="grid grid-cols-2 md:grid-cols-5 text-center text-base mb-4 gap-x-2 gap-y-2">
+          <div class="font-bold text-green-700">${totalMetaMensal.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
+          <div class="font-bold text-blue-700">${totalMensalidades.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
+          <div>${icm}%</div>
+          <div>${Number(mensalidadesPorFTE).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</div>
+          <div>${percentZerados}%</div>
+        </div>
 
-                <div class="table-responsive flex-grow">
-                    <table class="w-full text-sm border border-gray-200 rounded-lg">
-                        <thead class="bg-gray-100">
-                            <tr>
-                                <th class="py-2">Consultor</th>
-                                <th class="py-2">Status</th>                                
-                                <th class="py-2">Visitas</th>
-                                <th class="py-2">Propostas</th>
-                                <th class="py-2">Prop. Finlzd</th>
-                                <th class="py-2">Mensalidades</th>
-                                <th class="py-2">TKT Méd</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-${supervisor.consultores.map(c => {
-const tktMedio = c["PROP. FINLZD"] > 0 ? c.MENSALIDADES / c["PROP. FINLZD"] : 0;
-const statusClass = c.STATUS === "ATIVO" ? "bg-green-500" : "bg-red-500";
-return `
- <tr class="border-t border-gray-100 hover:bg-gray-50">
-<td class="font-medium text-left px-2 py-2">${c.CONSULTOR}</td>
-<td class="py-2">
- <div class="flex items-center justify-center">
- <div class="h-2 w-2 rounded-full ${statusClass} mr-2"></div>
-${c.STATUS}
-</div>
- </td>
-<td>${c.VISITAS}</td>
-<td>${c.PROPOSTAS}</td>
-<td>${c["PROP. FINLZD"]}</td>
-   <td>${Number(c.MENSALIDADES).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</td>
-<td>${Number(tktMedio).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
-</tr>
-`;
- }).join("")}
-</tbody>
-</table>
-</div>
- `;
+        <div class="table-responsive flex-grow">
+          <table class="w-full text-sm border border-gray-200 rounded-lg">
+            <thead class="bg-gray-100">
+              <tr>
+                <th class="py-2">Consultor</th>
+                <th class="py-2">Status</th>                                
+                <th class="py-2">Visitas</th>
+                <th class="py-2">Propostas</th>
+                <th class="py-2">Prop. Finlzd</th>
+                <th class="py-2">Mensalidades</th>
+                <th class="py-2">TKT Méd</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${supervisor.consultores.map(c => {
+                const tktMedio = c["PROP. FINLZD"] > 0 ? c.MENSALIDADES / c["PROP. FINLZD"] : 0;
+                const statusClass = c.STATUS === "ATIVO" ? "bg-green-500" : "bg-red-500";
+                return `
+                  <tr class="border-t border-gray-100 hover:bg-gray-50">
+                    <td class="font-medium text-left px-2 py-2">${c.CONSULTOR}</td>
+                    <td class="py-2">
+                      <div class="flex items-center justify-center">
+                        <div class="h-2 w-2 rounded-full ${statusClass} mr-2"></div>
+                        ${c.STATUS}
+                      </div>
+                    </td>
+                    <td>${c.VISITAS}</td>
+                    <td>${c.PROPOSTAS}</td>
+                    <td>${c["PROP. FINLZD"]}</td>
+                    <td>${Number(c.MENSALIDADES).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</td>
+                    <td>${Number(tktMedio).toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
+                  </tr>
+                `;
+              }).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
       return card;
     }
 
-    // Função para popular os filtros
     function populateFilters() {
       uniqueDates = [...new Set(processedData
           .map(d => d.DATA_FORMATTED)
@@ -346,9 +342,7 @@ ${c.STATUS}
       updateSupervisorFilterOptions("Todos");
 
       if (uniqueDates.length > 0) {
-        dateFilter.value = uniqueDates[0];
-      } else {
-        dateFilter.value = "";
+        endDateFilter.value = uniqueDates[0];
       }
     }
 
@@ -374,9 +368,12 @@ ${c.STATUS}
     function applyFilters() {
       let filteredData = [...processedData];
 
-      if (dateFilter.value) {
-        const selectedDate = dateFilter.value;
-        filteredData = filteredData.filter(d => d.DATA_FORMATTED <= selectedDate);
+      if (startDateFilter.value) {
+        filteredData = filteredData.filter(d => d.DATA_FORMATTED >= startDateFilter.value);
+      }
+
+      if (endDateFilter.value) {
+        filteredData = filteredData.filter(d => d.DATA_FORMATTED <= endDateFilter.value);
       }
 
       if (supervisorFilter.value !== "Todos") {
@@ -396,9 +393,7 @@ ${c.STATUS}
         filteredData = filteredData.filter(d => d.STATUS === statusFilter.value);
       }
 
-      // Renderizar os cards de resumo geral com os dados filtrados
       renderGeneralSummaryCards(filteredData);
-
 
       const groupedBySupervisor = groupDataBySupervisor(filteredData);
       renderCards(groupedBySupervisor);
@@ -447,7 +442,8 @@ ${c.STATUS}
       }
     }
 
-    dateFilter.addEventListener("change", applyFilters);
+    startDateFilter.addEventListener("change", applyFilters);
+    endDateFilter.addEventListener("change", applyFilters);
     supervisorFilter.addEventListener("change", applyFilters);
     consultantFilter.addEventListener("input", applyFilters);
     statusFilter.addEventListener('change', applyFilters);
